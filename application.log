@@ -1,0 +1,562 @@
+2017-03-26 12:59:51.485 DEBUG --- [}{0.0.0.0:8080}] org.eclipse.jetty.io.ManagedSelector     : Queued change org.eclipse.jetty.io.ManagedSelector$Accept@4eb409f4 on org.eclipse.jetty.io.ManagedSelector@5543d800 id=0 keys=0 selected=0
+2017-03-26 12:59:51.486 DEBUG --- [qtp875487383-12] org.eclipse.jetty.io.ManagedSelector     : Selector loop woken up from select, 0/0 selected
+2017-03-26 12:59:51.487 DEBUG --- [qtp875487383-12] org.eclipse.jetty.io.ManagedSelector     : Running change org.eclipse.jetty.io.ManagedSelector$Accept@4eb409f4
+2017-03-26 12:59:51.488 DEBUG --- [qtp875487383-12] org.eclipse.jetty.io.ManagedSelector     : Queued change org.eclipse.jetty.io.ManagedSelector$CreateEndPoint@412e683 on org.eclipse.jetty.io.ManagedSelector@5543d800 id=0 keys=1 selected=0
+2017-03-26 12:59:51.488 DEBUG --- [qtp875487383-12] o.e.j.u.t.s.ExecuteProduceConsume        : EPC Prod/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff produced org.eclipse.jetty.io.ManagedSelector$CreateEndPoint@412e683
+2017-03-26 12:59:51.488 DEBUG --- [qtp875487383-12] o.e.j.u.t.s.ExecuteProduceConsume        : EPC Pend/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff dispatch
+2017-03-26 12:59:51.488 DEBUG --- [qtp875487383-12] o.e.jetty.util.thread.QueuedThreadPool   : queue EPC Pend/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff
+2017-03-26 12:59:51.489 DEBUG --- [qtp875487383-12] o.e.j.u.t.s.ExecuteProduceConsume        : EPC Pend/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff run org.eclipse.jetty.io.ManagedSelector$CreateEndPoint@412e683
+2017-03-26 12:59:51.489 DEBUG --- [qtp875487383-17] o.e.jetty.util.thread.QueuedThreadPool   : run EPC Pend/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff
+2017-03-26 12:59:51.489 DEBUG --- [qtp875487383-17] o.e.j.u.t.s.ExecuteProduceConsume        : EPC Pend/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff run
+2017-03-26 12:59:51.489 DEBUG --- [qtp875487383-17] o.e.j.u.t.s.ExecuteProduceConsume        : EPC Prod/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff produce enter
+2017-03-26 12:59:51.489 DEBUG --- [qtp875487383-17] o.e.j.u.t.s.ExecuteProduceConsume        : EPC Prod/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff producing
+2017-03-26 12:59:51.489 DEBUG --- [qtp875487383-17] org.eclipse.jetty.io.ManagedSelector     : Selector loop waiting on select
+2017-03-26 12:59:51.506 DEBUG --- [qtp875487383-12] org.eclipse.jetty.io.AbstractEndPoint    : onOpen SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,-,-,17/30000,null@0}{io=0/0,kio=0,kro=0}
+2017-03-26 12:59:51.506 DEBUG --- [qtp875487383-12] org.eclipse.jetty.io.IdleTimeout         : SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,-,-,17/30000,null@0}{io=0/0,kio=0,kro=0} idle timeout check, elapsed: 17 ms, remaining: 29983 ms
+2017-03-26 12:59:51.691 DEBUG --- [qtp875487383-12] org.eclipse.jetty.server.HttpChannel     : new HttpChannelOverHttp@5477b0fd{r=0,c=false,a=IDLE,uri=null} -> SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,-,-,202/30000,null@0}{io=0/0,kio=0,kro=0},null,HttpChannelState@532b5fab{s=IDLE a=NOT_ASYNC i=true r=!P!U w=false}
+2017-03-26 12:59:51.725 DEBUG --- [qtp875487383-12] org.eclipse.jetty.server.HttpConnection  : New HTTP Connection HttpConnection@79b8499e[SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,-,-,236/30000,null@0}{io=0/0,kio=0,kro=0}][p=HttpParser{s=START,0 of 0},g=HttpGenerator@6f12545e{s=START},c=HttpChannelOverHttp@5477b0fd{r=0,c=false,a=IDLE,uri=null}]
+2017-03-26 12:59:51.726 DEBUG --- [qtp875487383-12] org.eclipse.jetty.io.AbstractConnection  : onOpen HttpConnection@79b8499e[SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,-,-,237/30000,HttpConnection@79b8499e}{io=0/0,kio=0,kro=0}][p=HttpParser{s=START,0 of 0},g=HttpGenerator@6f12545e{s=START},c=HttpChannelOverHttp@5477b0fd{r=0,c=false,a=IDLE,uri=null}]
+2017-03-26 12:59:51.726 DEBUG --- [qtp875487383-12] org.eclipse.jetty.io.AbstractConnection  : fillInterested HttpConnection@79b8499e[SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,-,-,237/30000,HttpConnection@79b8499e}{io=0/0,kio=0,kro=0}][p=HttpParser{s=START,0 of 0},g=HttpGenerator@6f12545e{s=START},c=HttpChannelOverHttp@5477b0fd{r=0,c=false,a=IDLE,uri=null}]
+2017-03-26 12:59:51.727 DEBUG --- [qtp875487383-12] org.eclipse.jetty.io.FillInterest        : FillInterest@69e0fccb{true,AC.ReadCB@79b8499e{HttpConnection@79b8499e[SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,FI,-,1/30000,HttpConnection@79b8499e}{io=0/0,kio=0,kro=0}][p=HttpParser{s=START,0 of 0},g=HttpGenerator@6f12545e{s=START},c=HttpChannelOverHttp@5477b0fd{r=0,c=false,a=IDLE,uri=null}]}} register AC.ReadCB@79b8499e{HttpConnection@79b8499e[SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,FI,-,1/30000,HttpConnection@79b8499e}{io=0/0,kio=0,kro=0}][p=HttpParser{s=START,0 of 0},g=HttpGenerator@6f12545e{s=START},c=HttpChannelOverHttp@5477b0fd{r=0,c=false,a=IDLE,uri=null}]}
+2017-03-26 12:59:51.727 DEBUG --- [qtp875487383-12] org.eclipse.jetty.io.FillInterest        : FillInterest@69e0fccb{true,AC.ReadCB@79b8499e{HttpConnection@79b8499e[SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,FI,-,1/30000,HttpConnection@79b8499e}{io=0/0,kio=0,kro=0}][p=HttpParser{s=START,0 of 0},g=HttpGenerator@6f12545e{s=START},c=HttpChannelOverHttp@5477b0fd{r=0,c=false,a=IDLE,uri=null}]}} register AC.ReadCB@79b8499e{HttpConnection@79b8499e[SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,FI,-,1/30000,HttpConnection@79b8499e}{io=0/0,kio=0,kro=0}][p=HttpParser{s=START,0 of 0},g=HttpGenerator@6f12545e{s=START},c=HttpChannelOverHttp@5477b0fd{r=0,c=false,a=IDLE,uri=null}]}
+2017-03-26 12:59:51.727 DEBUG --- [qtp875487383-12] o.e.jetty.io.SelectChannelEndPoint       : changeInterests p=false 0->1 for SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,FI,-,1/30000,HttpConnection@79b8499e}{io=0/1,kio=0,kro=0}
+2017-03-26 12:59:51.727 DEBUG --- [qtp875487383-12] org.eclipse.jetty.io.ManagedSelector     : Queued change SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,FI,-,1/30000,HttpConnection@79b8499e}{io=0/1,kio=0,kro=0}:runUpdateKey on org.eclipse.jetty.io.ManagedSelector@5543d800 id=0 keys=1 selected=0
+2017-03-26 12:59:51.727 DEBUG --- [qtp875487383-17] org.eclipse.jetty.io.ManagedSelector     : Selector loop woken up from select, 0/1 selected
+2017-03-26 12:59:51.728 DEBUG --- [qtp875487383-12] org.eclipse.jetty.io.ManagedSelector     : Created SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,FI,-,1/30000,HttpConnection@79b8499e}{io=0/1,kio=0,kro=0}
+2017-03-26 12:59:51.728 DEBUG --- [qtp875487383-12] o.e.j.u.t.s.ExecuteProduceConsume        : EPC Prod/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff ran org.eclipse.jetty.io.ManagedSelector$CreateEndPoint@412e683
+2017-03-26 12:59:51.728 DEBUG --- [qtp875487383-12] o.e.j.u.t.s.ExecuteProduceConsume        : EPC Prod/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff produce exit
+2017-03-26 12:59:51.728 DEBUG --- [qtp875487383-12] o.e.jetty.util.thread.QueuedThreadPool   : ran org.eclipse.jetty.io.ManagedSelector@5543d800 id=0 keys=1 selected=0
+2017-03-26 12:59:51.728 DEBUG --- [qtp875487383-17] org.eclipse.jetty.io.ManagedSelector     : Running change SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,FI,-,2/30000,HttpConnection@79b8499e}{io=0/1,kio=0,kro=0}:runUpdateKey
+2017-03-26 12:59:51.728 DEBUG --- [qtp875487383-17] o.e.jetty.io.SelectChannelEndPoint       : Key interests updated 0 -> 1 on SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,FI,-,2/30000,HttpConnection@79b8499e}{io=1/1,kio=1,kro=0}
+2017-03-26 12:59:51.728 DEBUG --- [qtp875487383-17] org.eclipse.jetty.io.ManagedSelector     : Selector loop waiting on select
+2017-03-26 12:59:51.728 DEBUG --- [qtp875487383-17] org.eclipse.jetty.io.ManagedSelector     : Selector loop woken up from select, 1/1 selected
+2017-03-26 12:59:51.728 DEBUG --- [qtp875487383-17] o.e.jetty.io.SelectChannelEndPoint       : onSelected 1->0 r=true w=false for SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,FI,-,2/30000,HttpConnection@79b8499e}{io=1/0,kio=1,kro=1}
+2017-03-26 12:59:51.728 DEBUG --- [qtp875487383-17] o.e.jetty.io.SelectChannelEndPoint       : task SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,FI,-,2/30000,HttpConnection@79b8499e}{io=1/0,kio=1,kro=1}:runFillable
+2017-03-26 12:59:51.728 DEBUG --- [qtp875487383-17] o.e.j.u.t.s.ExecuteProduceConsume        : EPC Prod/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff produced SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,FI,-,2/30000,HttpConnection@79b8499e}{io=1/0,kio=1,kro=1}:runFillable
+2017-03-26 12:59:51.728 DEBUG --- [qtp875487383-17] o.e.j.u.t.s.ExecuteProduceConsume        : EPC Pend/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff dispatch
+2017-03-26 12:59:51.728 DEBUG --- [qtp875487383-17] o.e.jetty.util.thread.QueuedThreadPool   : queue EPC Pend/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff
+2017-03-26 12:59:51.728 DEBUG --- [qtp875487383-18] o.e.jetty.util.thread.QueuedThreadPool   : run EPC Pend/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff
+2017-03-26 12:59:51.728 DEBUG --- [qtp875487383-18] o.e.j.u.t.s.ExecuteProduceConsume        : EPC Pend/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff run
+2017-03-26 12:59:51.728 DEBUG --- [qtp875487383-18] o.e.j.u.t.s.ExecuteProduceConsume        : EPC Prod/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff produce enter
+2017-03-26 12:59:51.728 DEBUG --- [qtp875487383-17] o.e.j.u.t.s.ExecuteProduceConsume        : EPC Pend/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff run SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,FI,-,2/30000,HttpConnection@79b8499e}{io=1/0,kio=1,kro=1}:runFillable
+2017-03-26 12:59:51.728 DEBUG --- [qtp875487383-18] o.e.j.u.t.s.ExecuteProduceConsume        : EPC Prod/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff producing
+2017-03-26 12:59:51.729 DEBUG --- [qtp875487383-18] o.e.jetty.io.SelectChannelEndPoint       : Key interests updated 1 -> 0 on SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,FI,-,3/30000,HttpConnection@79b8499e}{io=0/0,kio=0,kro=1}
+2017-03-26 12:59:51.729 DEBUG --- [qtp875487383-18] org.eclipse.jetty.io.ManagedSelector     : Selector loop waiting on select
+2017-03-26 12:59:51.729 DEBUG --- [qtp875487383-17] org.eclipse.jetty.io.FillInterest        : FillInterest@69e0fccb{true,AC.ReadCB@79b8499e{HttpConnection@79b8499e[SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,FI,-,3/30000,HttpConnection@79b8499e}{io=0/0,kio=0,kro=1}][p=HttpParser{s=START,0 of 0},g=HttpGenerator@6f12545e{s=START},c=HttpChannelOverHttp@5477b0fd{r=0,c=false,a=IDLE,uri=null}]}} fillable AC.ReadCB@79b8499e{HttpConnection@79b8499e[SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,FI,-,3/30000,HttpConnection@79b8499e}{io=0/0,kio=0,kro=1}][p=HttpParser{s=START,0 of 0},g=HttpGenerator@6f12545e{s=START},c=HttpChannelOverHttp@5477b0fd{r=0,c=false,a=IDLE,uri=null}]}
+2017-03-26 12:59:51.729 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpConnection  : HttpConnection@79b8499e[SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,-,-,3/30000,HttpConnection@79b8499e}{io=0/0,kio=0,kro=1}][p=HttpParser{s=START,0 of 0},g=HttpGenerator@6f12545e{s=START},c=HttpChannelOverHttp@5477b0fd{r=0,c=false,a=IDLE,uri=null}] onFillable enter HttpChannelState@532b5fab{s=IDLE a=NOT_ASYNC i=true r=!P!U w=false} null
+2017-03-26 12:59:51.731 DEBUG --- [qtp875487383-17] org.eclipse.jetty.io.ChannelEndPoint     : filled 195 SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,-,-,5/30000,HttpConnection@79b8499e}{io=0/0,kio=0,kro=1}
+2017-03-26 12:59:51.732 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpConnection  : HttpConnection@79b8499e[SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,-,-,1/30000,HttpConnection@79b8499e}{io=0/0,kio=0,kro=1}][p=HttpParser{s=START,0 of 0},g=HttpGenerator@6f12545e{s=START},c=HttpChannelOverHttp@5477b0fd{r=0,c=false,a=IDLE,uri=null}] filled 195 HeapByteBuffer@152dd325[p=0,l=195,c=8192,r=195]={<<<PUT /books/1 HTTP...ed 1490525991"}>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+2017-03-26 12:59:51.732 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpConnection  : HttpConnection@79b8499e[SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,-,-,1/30000,HttpConnection@79b8499e}{io=0/0,kio=0,kro=1}][p=HttpParser{s=START,0 of 0},g=HttpGenerator@6f12545e{s=START},c=HttpChannelOverHttp@5477b0fd{r=0,c=false,a=IDLE,uri=null}] parse HeapByteBuffer@152dd325[p=0,l=195,c=8192,r=195]={<<<PUT /books/1 HTTP...ed 1490525991"}>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00} {}
+2017-03-26 12:59:51.732 DEBUG --- [qtp875487383-17] org.eclipse.jetty.http.HttpParser        : parseNext s=START HeapByteBuffer@152dd325[p=0,l=195,c=8192,r=195]={<<<PUT /books/1 HTTP...ed 1490525991"}>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+2017-03-26 12:59:51.732 DEBUG --- [qtp875487383-17] org.eclipse.jetty.http.HttpParser        : START --> SPACE1
+2017-03-26 12:59:51.737 DEBUG --- [qtp875487383-17] org.eclipse.jetty.http.HttpParser        : SPACE1 --> URI
+2017-03-26 12:59:51.737 DEBUG --- [qtp875487383-17] org.eclipse.jetty.http.HttpParser        : URI --> SPACE2
+2017-03-26 12:59:51.737 DEBUG --- [qtp875487383-17] org.eclipse.jetty.http.HttpParser        : SPACE2 --> REQUEST_VERSION
+2017-03-26 12:59:51.737 DEBUG --- [qtp875487383-17] org.eclipse.jetty.http.HttpParser        : REQUEST_VERSION --> HEADER
+2017-03-26 12:59:51.739 DEBUG --- [qtp875487383-17] org.eclipse.jetty.http.HttpParser        : HEADER --> HEADER_VALUE
+2017-03-26 12:59:51.739 DEBUG --- [qtp875487383-17] org.eclipse.jetty.http.HttpParser        : HEADER_VALUE --> HEADER_IN_VALUE
+2017-03-26 12:59:51.739 DEBUG --- [qtp875487383-17] org.eclipse.jetty.http.HttpParser        : HEADER_IN_VALUE --> HEADER
+2017-03-26 12:59:51.743 DEBUG --- [qtp875487383-17] org.eclipse.jetty.http.HttpParser        : HEADER --> HEADER_VALUE
+2017-03-26 12:59:51.743 DEBUG --- [qtp875487383-17] org.eclipse.jetty.http.HttpParser        : HEADER_VALUE --> HEADER_IN_VALUE
+2017-03-26 12:59:51.743 DEBUG --- [qtp875487383-17] org.eclipse.jetty.http.HttpParser        : HEADER_IN_VALUE --> HEADER
+2017-03-26 12:59:51.743 DEBUG --- [qtp875487383-17] org.eclipse.jetty.http.HttpParser        : HEADER --> HEADER_IN_VALUE
+2017-03-26 12:59:51.743 DEBUG --- [qtp875487383-17] org.eclipse.jetty.http.HttpParser        : HEADER_IN_VALUE --> HEADER
+2017-03-26 12:59:51.743 DEBUG --- [qtp875487383-17] org.eclipse.jetty.http.HttpParser        : HEADER --> HEADER_IN_VALUE
+2017-03-26 12:59:51.743 DEBUG --- [qtp875487383-17] org.eclipse.jetty.http.HttpParser        : HEADER_IN_VALUE --> HEADER
+2017-03-26 12:59:51.743 DEBUG --- [qtp875487383-17] org.eclipse.jetty.http.HttpParser        : HEADER --> HEADER_VALUE
+2017-03-26 12:59:51.743 DEBUG --- [qtp875487383-17] org.eclipse.jetty.http.HttpParser        : HEADER_VALUE --> HEADER_IN_VALUE
+2017-03-26 12:59:51.743 DEBUG --- [qtp875487383-17] org.eclipse.jetty.http.HttpParser        : HEADER_IN_VALUE --> HEADER
+2017-03-26 12:59:51.743 DEBUG --- [qtp875487383-17] org.eclipse.jetty.http.HttpParser        : HEADER --> CONTENT
+2017-03-26 12:59:51.744 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpChannel     : REQUEST for //localhost:8080/books/1 on HttpChannelOverHttp@5477b0fd{r=1,c=false,a=IDLE,uri=//localhost:8080/books/1}
+PUT //localhost:8080/books/1 HTTP/1.1
+Host: localhost:8080
+User-Agent: curl/7.51.0
+Accept: */*
+Content-Type: application/json; charset=UTF-8
+Content-Length: 43
+
+
+2017-03-26 12:59:51.745 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpConnection  : HttpConnection@79b8499e[SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,-,-,14/30000,HttpConnection@79b8499e}{io=0/0,kio=0,kro=1}][p=HttpParser{s=CONTENT,0 of 43},g=HttpGenerator@6f12545e{s=START},c=HttpChannelOverHttp@5477b0fd{r=1,c=false,a=IDLE,uri=//localhost:8080/books/1}] parsed true HttpParser{s=CONTENT,0 of 43}
+2017-03-26 12:59:51.745 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpChannel     : HttpChannelOverHttp@5477b0fd{r=1,c=false,a=IDLE,uri=//localhost:8080/books/1} handle //localhost:8080/books/1
+2017-03-26 12:59:51.745 DEBUG --- [qtp875487383-17] o.eclipse.jetty.server.HttpChannelState  : HttpChannelState@532b5fab{s=IDLE a=NOT_ASYNC i=true r=!P!U w=false} handling IDLE
+2017-03-26 12:59:51.749 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpChannel     : HttpChannelOverHttp@5477b0fd{r=1,c=false,a=DISPATCHED,uri=//localhost:8080/books/1} action DISPATCH
+2017-03-26 12:59:51.751 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.Server          : REQUEST PUT /books/1 on HttpChannelOverHttp@5477b0fd{r=1,c=false,a=DISPATCHED,uri=//localhost:8080/books/1}
+2017-03-26 12:59:51.751 DEBUG --- [qtp875487383-17] o.e.jetty.server.handler.ContextHandler  : scope null||/books/1 @ o.s.b.c.e.j.JettyEmbeddedWebAppContext@34279b8a{/,file:///Users/jonaswitt/Desktop/my-api/src/main/webapp/,AVAILABLE}
+2017-03-26 12:59:51.752 DEBUG --- [qtp875487383-17] o.e.jetty.server.handler.ContextHandler  : context=||/books/1 @ o.s.b.c.e.j.JettyEmbeddedWebAppContext@34279b8a{/,file:///Users/jonaswitt/Desktop/my-api/src/main/webapp/,AVAILABLE}
+2017-03-26 12:59:51.752 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.session         : sessionManager=org.eclipse.jetty.server.session.HashSessionManager@675b18ff
+2017-03-26 12:59:51.752 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.session         : session=null
+2017-03-26 12:59:51.752 DEBUG --- [qtp875487383-17] o.eclipse.jetty.servlet.ServletHandler   : servlet ||/books/1 -> grailsDispatcherServlet@3fb1da4==org.grails.web.servlet.mvc.GrailsDispatcherServlet,jsp=null,order=2,inst=true
+2017-03-26 12:59:51.763 DEBUG --- [qtp875487383-17] o.eclipse.jetty.servlet.ServletHandler   : chain=metricsFilter->grailsCorsFilter->characterEncodingFilter->hiddenHttpMethodFilter->grailsWebRequestFilter->webRequestLoggingFilter->applicationContextIdFilter->Jetty_WebSocketUpgradeFilter->grailsDispatcherServlet@3fb1da4==org.grails.web.servlet.mvc.GrailsDispatcherServlet,jsp=null,order=2,inst=true
+2017-03-26 12:59:51.766 DEBUG --- [qtp875487383-17] o.eclipse.jetty.servlet.ServletHandler   : call filter metricsFilter
+2017-03-26 12:59:51.771 DEBUG --- [qtp875487383-17] o.eclipse.jetty.servlet.ServletHandler   : call filter grailsCorsFilter
+2017-03-26 12:59:51.771 DEBUG --- [qtp875487383-17] o.eclipse.jetty.servlet.ServletHandler   : call filter characterEncodingFilter
+2017-03-26 12:59:51.771 DEBUG --- [qtp875487383-17] o.eclipse.jetty.servlet.ServletHandler   : call filter hiddenHttpMethodFilter
+2017-03-26 12:59:51.771 DEBUG --- [qtp875487383-17] o.eclipse.jetty.servlet.ServletHandler   : call filter grailsWebRequestFilter
+2017-03-26 12:59:51.781 DEBUG --- [qtp875487383-17] o.g.w.s.mvc.GrailsWebRequestFilter       : Bound Grails request context to thread: Request(PUT //localhost:8080/books/1)@2bca175e
+2017-03-26 12:59:51.783 DEBUG --- [qtp875487383-17] o.eclipse.jetty.servlet.ServletHandler   : call filter webRequestLoggingFilter
+2017-03-26 12:59:51.785 DEBUG --- [qtp875487383-17] o.eclipse.jetty.servlet.ServletHandler   : call filter applicationContextIdFilter
+2017-03-26 12:59:51.785 DEBUG --- [qtp875487383-17] o.eclipse.jetty.servlet.ServletHandler   : call filter Jetty_WebSocketUpgradeFilter
+2017-03-26 12:59:51.785 DEBUG --- [qtp875487383-17] o.eclipse.jetty.servlet.ServletHandler   : call servlet grailsDispatcherServlet@3fb1da4==org.grails.web.servlet.mvc.GrailsDispatcherServlet,jsp=null,order=2,inst=true
+2017-03-26 12:59:51.786 DEBUG --- [qtp875487383-17] o.g.w.s.mvc.GrailsDispatcherServlet      : DispatcherServlet with name 'grailsDispatcherServlet' processing PUT request for [/books/1]
+2017-03-26 12:59:51.786 DEBUG --- [qtp875487383-17] o.s.b.a.e.mvc.EndpointHandlerMapping     : Looking up handler method for path /books/1
+2017-03-26 12:59:51.787 DEBUG --- [qtp875487383-17] o.s.b.a.e.mvc.EndpointHandlerMapping     : Did not find handler method for [/books/1]
+2017-03-26 12:59:51.795 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'mimeTypes'
+2017-03-26 12:59:51.795 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'grailsApplication'
+2017-03-26 12:59:51.803 DEBUG --- [qtp875487383-17] o.g.w.mapping.DefaultUrlMappingsHolder   : Attempting to match URI [/books/1] with pattern [404]
+2017-03-26 12:59:51.803 DEBUG --- [qtp875487383-17] o.g.w.mapping.DefaultUrlMappingsHolder   : Attempting to match URI [/books/1] with pattern [500]
+2017-03-26 12:59:51.803 DEBUG --- [qtp875487383-17] o.g.w.mapping.DefaultUrlMappingsHolder   : Attempting to match URI [/books/1] with pattern [/]
+2017-03-26 12:59:51.803 DEBUG --- [qtp875487383-17] o.g.w.mapping.DefaultUrlMappingsHolder   : Attempting to match URI [/books/1] with pattern [/books/create]
+2017-03-26 12:59:51.803 DEBUG --- [qtp875487383-17] o.g.w.mapping.DefaultUrlMappingsHolder   : Attempting to match URI [/books/1] with pattern [/books/(*)/edit]
+2017-03-26 12:59:51.803 DEBUG --- [qtp875487383-17] o.g.w.mapping.DefaultUrlMappingsHolder   : Attempting to match URI [/books/1] with pattern [/books(.(*))?]
+2017-03-26 12:59:51.803 DEBUG --- [qtp875487383-17] o.g.w.mapping.DefaultUrlMappingsHolder   : Attempting to match URI [/books/1] with pattern [/books(.(*))?]
+2017-03-26 12:59:51.803 DEBUG --- [qtp875487383-17] o.g.w.mapping.DefaultUrlMappingsHolder   : Attempting to match URI [/books/1] with pattern [/books/(*)(.(*))?]
+2017-03-26 12:59:51.807 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'grailsUrlConverter'
+2017-03-26 12:59:51.807 DEBUG --- [qtp875487383-17] o.g.w.mapping.DefaultUrlMappingsHolder   : Matched URI [/books/1] with pattern [/books/(*)(.(*))?], adding to posibilities
+2017-03-26 12:59:51.807 DEBUG --- [qtp875487383-17] o.g.w.mapping.DefaultUrlMappingsHolder   : Attempting to match URI [/books/1] with pattern [/books/(*)(.(*))?]
+2017-03-26 12:59:51.807 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'grailsUrlConverter'
+2017-03-26 12:59:51.807 DEBUG --- [qtp875487383-17] o.g.w.mapping.DefaultUrlMappingsHolder   : Matched URI [/books/1] with pattern [/books/(*)(.(*))?], adding to posibilities
+2017-03-26 12:59:51.807 DEBUG --- [qtp875487383-17] o.g.w.mapping.DefaultUrlMappingsHolder   : Attempting to match URI [/books/1] with pattern [/books/(*)(.(*))?]
+2017-03-26 12:59:51.807 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'grailsUrlConverter'
+2017-03-26 12:59:51.807 DEBUG --- [qtp875487383-17] o.g.w.mapping.DefaultUrlMappingsHolder   : Matched URI [/books/1] with pattern [/books/(*)(.(*))?], adding to posibilities
+2017-03-26 12:59:51.807 DEBUG --- [qtp875487383-17] o.g.w.mapping.DefaultUrlMappingsHolder   : Attempting to match URI [/books/1] with pattern [/books/(*)(.(*))?]
+2017-03-26 12:59:51.807 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'grailsUrlConverter'
+2017-03-26 12:59:51.807 DEBUG --- [qtp875487383-17] o.g.w.mapping.DefaultUrlMappingsHolder   : Matched URI [/books/1] with pattern [/books/(*)(.(*))?], adding to posibilities
+2017-03-26 12:59:51.807 DEBUG --- [qtp875487383-17] o.g.w.mapping.DefaultUrlMappingsHolder   : Attempting to match URI [/books/1] with pattern [/(*)(.(*))?]
+2017-03-26 12:59:51.807 DEBUG --- [qtp875487383-17] o.g.w.mapping.DefaultUrlMappingsHolder   : Attempting to match URI [/books/1] with pattern [/(*)(.(*))?]
+2017-03-26 12:59:51.807 DEBUG --- [qtp875487383-17] o.g.w.mapping.DefaultUrlMappingsHolder   : Attempting to match URI [/books/1] with pattern [/(*)/(*)(.(*))?]
+2017-03-26 12:59:51.810 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'grailsUrlConverter'
+2017-03-26 12:59:51.810 DEBUG --- [qtp875487383-17] o.g.w.mapping.DefaultUrlMappingsHolder   : Matched URI [/books/1] with pattern [/(*)/(*)(.(*))?], adding to posibilities
+2017-03-26 12:59:51.810 DEBUG --- [qtp875487383-17] o.g.w.mapping.DefaultUrlMappingsHolder   : Attempting to match URI [/books/1] with pattern [/(*)/(*)(.(*))?]
+2017-03-26 12:59:51.810 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'grailsUrlConverter'
+2017-03-26 12:59:51.810 DEBUG --- [qtp875487383-17] o.g.w.mapping.DefaultUrlMappingsHolder   : Matched URI [/books/1] with pattern [/(*)/(*)(.(*))?], adding to posibilities
+2017-03-26 12:59:51.810 DEBUG --- [qtp875487383-17] o.g.w.mapping.DefaultUrlMappingsHolder   : Attempting to match URI [/books/1] with pattern [/(*)/(*)(.(*))?]
+2017-03-26 12:59:51.810 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'grailsUrlConverter'
+2017-03-26 12:59:51.810 DEBUG --- [qtp875487383-17] o.g.w.mapping.DefaultUrlMappingsHolder   : Matched URI [/books/1] with pattern [/(*)/(*)(.(*))?], adding to posibilities
+2017-03-26 12:59:51.810 DEBUG --- [qtp875487383-17] o.g.w.mapping.DefaultUrlMappingsHolder   : Attempting to match URI [/books/1] with pattern [/(*)/(*)(.(*))?]
+2017-03-26 12:59:51.810 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'grailsUrlConverter'
+2017-03-26 12:59:51.810 DEBUG --- [qtp875487383-17] o.g.w.mapping.DefaultUrlMappingsHolder   : Matched URI [/books/1] with pattern [/(*)/(*)(.(*))?], adding to posibilities
+2017-03-26 12:59:51.812 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'multipartResolver'
+2017-03-26 12:59:51.812 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'multipartResolver'
+2017-03-26 12:59:51.817 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'multipartResolver'
+2017-03-26 12:59:51.817 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'multipartResolver'
+2017-03-26 12:59:51.818 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'multipartResolver'
+2017-03-26 12:59:51.821 DEBUG --- [qtp875487383-17] o.h.s.GrailsOpenSessionInViewInterceptor : Opening Hibernate Session in OpenSessionInViewInterceptor
+2017-03-26 12:59:51.822 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.bookstore.BookController'
+2017-03-26 12:59:51.822 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Creating instance of bean 'org.bookstore.BookController'
+2017-03-26 12:59:51.822 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2017-03-26 12:59:51.822 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'org.springframework.cache.config.internalCacheAdvisor'
+2017-03-26 12:59:51.860 DEBUG --- [qtp875487383-17] o.s.b.f.annotation.InjectionMetadata     : Registered injected element on class [org.bookstore.BookController]: AutowiredFieldElement for private grails.core.support.proxy.ProxyHandler org.bookstore.BookController.grails_artefact_controller_RestResponder__proxyHandler
+2017-03-26 12:59:51.860 DEBUG --- [qtp875487383-17] o.s.b.f.annotation.InjectionMetadata     : Registered injected element on class [org.bookstore.BookController]: AutowiredFieldElement for private grails.rest.render.RendererRegistry org.bookstore.BookController.grails_artefact_controller_RestResponder__rendererRegistry
+2017-03-26 12:59:51.860 DEBUG --- [qtp875487383-17] o.s.b.f.annotation.InjectionMetadata     : Registered injected element on class [org.bookstore.BookController]: AutowiredFieldElement for private reactor.bus.EventBus org.bookstore.BookController.grails_events_Events__eventBus
+2017-03-26 12:59:51.860 DEBUG --- [qtp875487383-17] o.s.b.f.annotation.InjectionMetadata     : Registered injected element on class [org.bookstore.BookController]: AutowiredMethodElement for public void org.bookstore.BookController.setUrlConverter(grails.web.UrlConverter)
+2017-03-26 12:59:51.860 DEBUG --- [qtp875487383-17] o.s.b.f.annotation.InjectionMetadata     : Registered injected element on class [org.bookstore.BookController]: AutowiredMethodElement for public void org.bookstore.BookController.setGrailsLinkGenerator(grails.web.mapping.LinkGenerator)
+2017-03-26 12:59:51.860 DEBUG --- [qtp875487383-17] o.s.b.f.annotation.InjectionMetadata     : Registered injected element on class [org.bookstore.BookController]: AutowiredMethodElement for public void org.bookstore.BookController.setRequestDataValueProcessor(org.springframework.web.servlet.support.RequestDataValueProcessor)
+2017-03-26 12:59:51.860 DEBUG --- [qtp875487383-17] o.s.b.f.annotation.InjectionMetadata     : Registered injected element on class [org.bookstore.BookController]: AutowiredMethodElement for public void org.bookstore.BookController.setRedirectListeners(java.util.Collection)
+2017-03-26 12:59:51.860 DEBUG --- [qtp875487383-17] o.s.b.f.annotation.InjectionMetadata     : Registered injected element on class [org.bookstore.BookController]: AutowiredMethodElement for public void org.bookstore.BookController.setMimeUtility(grails.web.mime.MimeUtility)
+2017-03-26 12:59:51.860 DEBUG --- [qtp875487383-17] o.s.b.f.annotation.InjectionMetadata     : Registered injected element on class [org.bookstore.BookController]: AutowiredMethodElement for public void org.bookstore.BookController.setGroovyPageLayoutFinder(org.grails.web.sitemesh.GroovyPageLayoutFinder)
+2017-03-26 12:59:51.860 DEBUG --- [qtp875487383-17] o.s.b.f.annotation.InjectionMetadata     : Registered injected element on class [org.bookstore.BookController]: AutowiredMethodElement for public void org.bookstore.BookController.setActionResultTransformers(org.grails.web.servlet.mvc.ActionResultTransformer[])
+2017-03-26 12:59:51.860 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Eagerly caching bean 'org.bookstore.BookController' to allow for resolving potential circular references
+2017-03-26 12:59:51.860 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'transactionManager'
+2017-03-26 12:59:51.860 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'eventBus'
+2017-03-26 12:59:51.861 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Added autowiring by name from bean name 'org.bookstore.BookController' via property 'eventBus' to bean named 'eventBus'
+2017-03-26 12:59:51.861 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'grailsLinkGenerator'
+2017-03-26 12:59:51.861 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Added autowiring by name from bean name 'org.bookstore.BookController' via property 'grailsLinkGenerator' to bean named 'grailsLinkGenerator'
+2017-03-26 12:59:51.861 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'proxyHandler'
+2017-03-26 12:59:51.861 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Added autowiring by name from bean name 'org.bookstore.BookController' via property 'proxyHandler' to bean named 'proxyHandler'
+2017-03-26 12:59:51.861 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'rendererRegistry'
+2017-03-26 12:59:51.861 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Added autowiring by name from bean name 'org.bookstore.BookController' via property 'rendererRegistry' to bean named 'rendererRegistry'
+2017-03-26 12:59:51.861 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'transactionManager'
+2017-03-26 12:59:51.861 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Added autowiring by name from bean name 'org.bookstore.BookController' via property 'transactionManager' to bean named 'transactionManager'
+2017-03-26 12:59:51.861 DEBUG --- [qtp875487383-17] o.s.b.f.annotation.InjectionMetadata     : Processing injected element of bean 'org.bookstore.BookController': AutowiredFieldElement for private grails.core.support.proxy.ProxyHandler org.bookstore.BookController.grails_artefact_controller_RestResponder__proxyHandler
+2017-03-26 12:59:51.862 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'proxyHandler'
+2017-03-26 12:59:51.862 DEBUG --- [qtp875487383-17] f.a.AutowiredAnnotationBeanPostProcessor : Autowiring by type from bean name 'org.bookstore.BookController' to bean named 'proxyHandler'
+2017-03-26 12:59:51.862 DEBUG --- [qtp875487383-17] o.s.b.f.annotation.InjectionMetadata     : Processing injected element of bean 'org.bookstore.BookController': AutowiredFieldElement for private grails.rest.render.RendererRegistry org.bookstore.BookController.grails_artefact_controller_RestResponder__rendererRegistry
+2017-03-26 12:59:51.862 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'rendererRegistry'
+2017-03-26 12:59:51.862 DEBUG --- [qtp875487383-17] f.a.AutowiredAnnotationBeanPostProcessor : Autowiring by type from bean name 'org.bookstore.BookController' to bean named 'rendererRegistry'
+2017-03-26 12:59:51.862 DEBUG --- [qtp875487383-17] o.s.b.f.annotation.InjectionMetadata     : Processing injected element of bean 'org.bookstore.BookController': AutowiredFieldElement for private reactor.bus.EventBus org.bookstore.BookController.grails_events_Events__eventBus
+2017-03-26 12:59:51.863 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'eventBus'
+2017-03-26 12:59:51.863 DEBUG --- [qtp875487383-17] f.a.AutowiredAnnotationBeanPostProcessor : Autowiring by type from bean name 'org.bookstore.BookController' to bean named 'eventBus'
+2017-03-26 12:59:51.863 DEBUG --- [qtp875487383-17] o.s.b.f.annotation.InjectionMetadata     : Processing injected element of bean 'org.bookstore.BookController': AutowiredMethodElement for public void org.bookstore.BookController.setUrlConverter(grails.web.UrlConverter)
+2017-03-26 12:59:51.863 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'grailsUrlConverter'
+2017-03-26 12:59:51.864 DEBUG --- [qtp875487383-17] f.a.AutowiredAnnotationBeanPostProcessor : Autowiring by type from bean name 'org.bookstore.BookController' to bean named 'grailsUrlConverter'
+2017-03-26 12:59:51.865 DEBUG --- [qtp875487383-17] o.s.b.f.annotation.InjectionMetadata     : Processing injected element of bean 'org.bookstore.BookController': AutowiredMethodElement for public void org.bookstore.BookController.setGrailsLinkGenerator(grails.web.mapping.LinkGenerator)
+2017-03-26 12:59:51.865 DEBUG --- [qtp875487383-17] o.s.b.f.annotation.InjectionMetadata     : Processing injected element of bean 'org.bookstore.BookController': AutowiredMethodElement for public void org.bookstore.BookController.setRequestDataValueProcessor(org.springframework.web.servlet.support.RequestDataValueProcessor)
+2017-03-26 12:59:51.865 DEBUG --- [qtp875487383-17] o.s.b.f.annotation.InjectionMetadata     : Processing injected element of bean 'org.bookstore.BookController': AutowiredMethodElement for public void org.bookstore.BookController.setRedirectListeners(java.util.Collection)
+2017-03-26 12:59:51.866 DEBUG --- [qtp875487383-17] o.s.b.f.annotation.InjectionMetadata     : Processing injected element of bean 'org.bookstore.BookController': AutowiredMethodElement for public void org.bookstore.BookController.setMimeUtility(grails.web.mime.MimeUtility)
+2017-03-26 12:59:51.867 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'grailsMimeUtility'
+2017-03-26 12:59:51.867 DEBUG --- [qtp875487383-17] f.a.AutowiredAnnotationBeanPostProcessor : Autowiring by type from bean name 'org.bookstore.BookController' to bean named 'grailsMimeUtility'
+2017-03-26 12:59:51.868 DEBUG --- [qtp875487383-17] o.s.b.f.annotation.InjectionMetadata     : Processing injected element of bean 'org.bookstore.BookController': AutowiredMethodElement for public void org.bookstore.BookController.setGroovyPageLayoutFinder(org.grails.web.sitemesh.GroovyPageLayoutFinder)
+2017-03-26 12:59:51.868 DEBUG --- [qtp875487383-17] o.s.b.f.annotation.InjectionMetadata     : Processing injected element of bean 'org.bookstore.BookController': AutowiredMethodElement for public void org.bookstore.BookController.setActionResultTransformers(org.grails.web.servlet.mvc.ActionResultTransformer[])
+2017-03-26 12:59:51.869 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'asyncPromiseResponseActionResultTransformer'
+2017-03-26 12:59:51.869 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'tokenResponseActionResultTransformer'
+2017-03-26 12:59:51.869 DEBUG --- [qtp875487383-17] f.a.AutowiredAnnotationBeanPostProcessor : Autowiring by type from bean name 'org.bookstore.BookController' to bean named 'asyncPromiseResponseActionResultTransformer'
+2017-03-26 12:59:51.869 DEBUG --- [qtp875487383-17] f.a.AutowiredAnnotationBeanPostProcessor : Autowiring by type from bean name 'org.bookstore.BookController' to bean named 'tokenResponseActionResultTransformer'
+2017-03-26 12:59:51.872 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2017-03-26 12:59:51.872 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'org.springframework.cache.config.internalCacheAdvisor'
+2017-03-26 12:59:51.872 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2017-03-26 12:59:51.872 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'org.springframework.cache.config.internalCacheAdvisor'
+2017-03-26 12:59:51.905 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Finished creating instance of bean 'org.bookstore.BookController'
+2017-03-26 12:59:51.906 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'multipartResolver'
+2017-03-26 12:59:51.918 DEBUG --- [qtp875487383-17] .g.o.h.GrailsHibernateTransactionManager : Found thread-bound Session [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for Hibernate transaction
+2017-03-26 12:59:51.918 DEBUG --- [qtp875487383-17] .g.o.h.GrailsHibernateTransactionManager : Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2017-03-26 12:59:51.918 DEBUG --- [qtp875487383-17] .g.o.h.GrailsHibernateTransactionManager : Not preparing JDBC Connection of Hibernate Session [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+2017-03-26 12:59:51.918 DEBUG --- [qtp875487383-17] o.h.e.t.internal.TransactionImpl         : begin
+2017-03-26 12:59:51.919 DEBUG --- [qtp875487383-17] o.s.jdbc.datasource.DataSourceUtils      : Fetching JDBC Connection from DataSource
+2017-03-26 12:59:51.921 DEBUG --- [qtp875487383-17] .g.o.h.GrailsHibernateTransactionManager : Exposing Hibernate transaction as JDBC transaction [Transaction-aware proxy for target Connection [Lazy Connection proxy for target DataSource [org.apache.tomcat.jdbc.pool.DataSource@7772d266{ConnectionPool[defaultAutoCommit=null; defaultReadOnly=false; defaultTransactionIsolation=-1; defaultCatalog=null; driverClassName=org.h2.Driver; maxActive=100; maxIdle=100; minIdle=10; initialSize=10; maxWait=30000; testOnBorrow=false; testOnReturn=false; timeBetweenEvictionRunsMillis=5000; numTestsPerEvictionRun=0; minEvictableIdleTimeMillis=60000; testWhileIdle=false; testOnConnect=false; password=********; url=jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE; username=sa; validationQuery=null; validationQueryTimeout=-1; validatorClassName=null; validationInterval=3000; accessToUnderlyingConnectionAllowed=true; removeAbandoned=false; removeAbandonedTimeout=60; logAbandoned=false; connectionProperties=null; initSQL=null; jdbcInterceptors=null; jmxEnabled=true; fairQueue=true; useEquals=true; abandonWhenPercentageFull=0; maxAge=0; useLock=false; dataSource=null; dataSourceJNDI=null; suspectTimeout=0; alternateUsernameAllowed=false; commitOnReturn=false; rollbackOnReturn=false; useDisposableConnectionFacade=true; logValidationErrors=false; propagateInterruptState=false; ignoreExceptionOnPreLoad=false; }]]]
+2017-03-26 12:59:51.948 DEBUG --- [qtp875487383-17] org.grails.datastore.gorm.GormEnhancer   : Returning default tenant id for non-multitenant class [class org.bookstore.Book]
+2017-03-26 12:59:51.949 DEBUG --- [qtp875487383-17] o.g.o.hibernate.GrailsHibernateTemplate  : Found thread-bound Session for HibernateTemplate
+2017-03-26 12:59:51.952 DEBUG --- [qtp875487383-17] org.hibernate.SQL                        : select book0_.id as id1_0_0_, book0_.version as version2_0_0_, book0_.author as author3_0_0_, book0_.title as title4_0_0_ from book book0_ where book0_.id=?
+2017-03-26 12:59:51.952 DEBUG --- [qtp875487383-17] o.s.j.d.LazyConnectionDataSourceProxy    : Connecting to database for operation 'prepareStatement'
+2017-03-26 12:59:51.954 DEBUG --- [qtp875487383-17] o.h.l.p.e.p.i.ResultSetProcessorImpl     : Starting ResultSet row #0
+2017-03-26 12:59:51.955 DEBUG --- [qtp875487383-17] l.p.e.p.i.EntityReferenceInitializerImpl : On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+2017-03-26 12:59:51.966 DEBUG --- [qtp875487383-17] o.h.engine.internal.TwoPhaseLoad         : Resolving associations for [org.bookstore.Book#1]
+2017-03-26 12:59:51.968 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'springReactorEventTranslator'
+2017-03-26 12:59:51.968 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'grailsApplication'
+2017-03-26 12:59:51.968 DEBUG --- [qtp875487383-17] o.h.engine.internal.TwoPhaseLoad         : Done materializing entity [org.bookstore.Book#1]
+2017-03-26 12:59:51.970 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'springReactorEventTranslator'
+2017-03-26 12:59:51.970 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'grailsApplication'
+2017-03-26 12:59:51.970 DEBUG --- [qtp875487383-17] o.h.r.j.i.ResourceRegistryStandardImpl   : HHH000387: ResultSet's statement was not registered
+2017-03-26 12:59:51.970 DEBUG --- [qtp875487383-17] .l.e.p.AbstractLoadPlanBasedEntityLoader : Done entity load : org.bookstore.Book#1
+2017-03-26 12:59:51.970 DEBUG --- [qtp875487383-17] o.g.o.hibernate.GrailsHibernateTemplate  : Not closing pre-bound Hibernate Session after HibernateTemplate
+2017-03-26 12:59:51.971 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'grailsApplication'
+2017-03-26 12:59:51.971 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'dataBindingSourceRegistry'
+2017-03-26 12:59:51.971 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'mimeTypeResolver'
+2017-03-26 12:59:51.971 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'mimeTypes'
+2017-03-26 12:59:51.982 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpConnection  : HttpConnection@79b8499e[SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,-,-,251/30000,HttpConnection@79b8499e}{io=0/0,kio=0,kro=1}][p=HttpParser{s=CONTENT,0 of 43},g=HttpGenerator@6f12545e{s=START},c=HttpChannelOverHttp@5477b0fd{r=1,c=false,a=DISPATCHED,uri=//localhost:8080/books/1}] parse HeapByteBuffer@152dd325[p=152,l=195,c=8192,r=43]={PUT /books/1 HTTP...-Length: 43\r\n\r\n<<<{"author": "Autho...ed 1490525991"}>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00} {}
+2017-03-26 12:59:51.982 DEBUG --- [qtp875487383-17] org.eclipse.jetty.http.HttpParser        : parseNext s=CONTENT HeapByteBuffer@152dd325[p=152,l=195,c=8192,r=43]={PUT /books/1 HTTP...-Length: 43\r\n\r\n<<<{"author": "Autho...ed 1490525991"}>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+2017-03-26 12:59:51.984 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpChannel     : HttpChannelOverHttp@5477b0fd{r=1,c=false,a=DISPATCHED,uri=//localhost:8080/books/1} content Content@665b46b2{HeapByteBufferR@5fa1a800[p=152,l=195,c=8192,r=43]={PUT /books/1 HTTP...-Length: 43\r\n\r\n<<<{"author": "Autho...ed 1490525991"}>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}}
+2017-03-26 12:59:51.984 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpInput       : HttpInputOverHTTP@1d2127ec[c=0,q=1,[0]=Content@665b46b2{HeapByteBufferR@5fa1a800[p=152,l=195,c=8192,r=43]={PUT /books/1 HTTP...-Length: 43\r\n\r\n<<<{"author": "Autho...ed 1490525991"}>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}},s=STREAM] addContent Content@665b46b2{HeapByteBufferR@5fa1a800[p=152,l=195,c=8192,r=43]={PUT /books/1 HTTP...-Length: 43\r\n\r\n<<<{"author": "Autho...ed 1490525991"}>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}}
+2017-03-26 12:59:51.984 DEBUG --- [qtp875487383-17] org.eclipse.jetty.http.HttpParser        : CONTENT --> END
+2017-03-26 12:59:51.984 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpChannel     : HttpChannelOverHttp@5477b0fd{r=1,c=false,a=DISPATCHED,uri=//localhost:8080/books/1} onRequestComplete
+2017-03-26 12:59:51.984 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpInput       : HttpInputOverHTTP@1d2127ec[c=0,q=2,[0]=Content@665b46b2{HeapByteBufferR@5fa1a800[p=152,l=195,c=8192,r=43]={PUT /books/1 HTTP...-Length: 43\r\n\r\n<<<{"author": "Autho...ed 1490525991"}>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}},s=STREAM] addContent EOF
+2017-03-26 12:59:51.984 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpConnection  : HttpConnection@79b8499e[SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,-,-,253/30000,HttpConnection@79b8499e}{io=0/0,kio=0,kro=1}][p=HttpParser{s=END,43 of 43},g=HttpGenerator@6f12545e{s=START},c=HttpChannelOverHttp@5477b0fd{r=1,c=false,a=DISPATCHED,uri=//localhost:8080/books/1}] parsed false HttpParser{s=END,43 of 43}
+2017-03-26 12:59:51.984 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpInput       : HttpInputOverHTTP@1d2127ec[c=43,q=2,[0]=Content@665b46b2{HeapByteBufferR@5fa1a800[p=195,l=195,c=8192,r=0]={PUT /books/1 HTTP...ed 1490525991"}<<<>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}},s=STREAM] read 43 from Content@665b46b2{HeapByteBufferR@5fa1a800[p=195,l=195,c=8192,r=0]={PUT /books/1 HTTP...ed 1490525991"}<<<>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}}
+2017-03-26 12:59:51.984 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpConnection  : releaseRequestBuffer HttpConnection@79b8499e[SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,-,-,253/30000,HttpConnection@79b8499e}{io=0/0,kio=0,kro=1}][p=HttpParser{s=END,43 of 43},g=HttpGenerator@6f12545e{s=START},c=HttpChannelOverHttp@5477b0fd{r=1,c=false,a=DISPATCHED,uri=//localhost:8080/books/1}]
+2017-03-26 12:59:51.985 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpInput       : HttpInputOverHTTP@1d2127ec[c=43,q=1,[0]=EOF,s=STREAM] consumed Content@665b46b2{HeapByteBufferR@5fa1a800[p=195,l=195,c=8192,r=0]={PUT /books/1 HTTP...ed 1490525991"}<<<>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}}
+2017-03-26 12:59:51.985 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpInput       : HttpInputOverHTTP@1d2127ec[c=43,q=0,[0]=null,s=STREAM] consumed EOF
+2017-03-26 12:59:51.985 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'grailsWebDataBinder'
+2017-03-26 12:59:51.989 DEBUG --- [qtp875487383-17] org.grails.datastore.gorm.GormEnhancer   : Returning default tenant id for non-multitenant class [class org.bookstore.Book]
+2017-03-26 12:59:51.990 DEBUG --- [qtp875487383-17] o.g.o.hibernate.GrailsHibernateTemplate  : Found thread-bound Session for HibernateTemplate
+2017-03-26 12:59:51.990 DEBUG --- [qtp875487383-17] o.h.e.i.AbstractFlushingEventListener    : Processing flush-time cascades
+2017-03-26 12:59:51.990 DEBUG --- [qtp875487383-17] o.h.e.i.AbstractFlushingEventListener    : Dirty checking collections
+2017-03-26 12:59:51.990 DEBUG --- [qtp875487383-17] o.h.e.i.AbstractFlushingEventListener    : Flushed: 0 insertions, 1 updates, 0 deletions to 1 objects
+2017-03-26 12:59:51.990 DEBUG --- [qtp875487383-17] o.h.e.i.AbstractFlushingEventListener    : Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-03-26 12:59:51.990 DEBUG --- [qtp875487383-17] o.hibernate.internal.util.EntityPrinter  : Listing entities:
+2017-03-26 12:59:51.990 DEBUG --- [qtp875487383-17] o.hibernate.internal.util.EntityPrinter  : org.bookstore.Book{author=Author 1 - Changed 1490525991, id=1, title=Book 1, version=0}
+2017-03-26 12:59:51.991 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'springReactorEventTranslator'
+2017-03-26 12:59:51.991 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'grailsApplication'
+2017-03-26 12:59:52.000 DEBUG --- [qtp875487383-17] org.hibernate.SQL                        : update book set version=?, author=?, title=? where id=? and version=?
+2017-03-26 12:59:52.000 DEBUG --- [qtp875487383-17] o.s.j.d.LazyConnectionDataSourceProxy    : Using existing database connection for operation 'prepareStatement'
+2017-03-26 12:59:52.004 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'springReactorEventTranslator'
+2017-03-26 12:59:52.005 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'grailsApplication'
+2017-03-26 12:59:52.005 DEBUG --- [qtp875487383-17] o.g.o.hibernate.GrailsHibernateTemplate  : Not closing pre-bound Hibernate Session after HibernateTemplate
+2017-03-26 12:59:52.015 DEBUG --- [qtp875487383-17] org.grails.web.mapping.RegexUrlMapping   : Created reverse URL mapping [/books/1] for parameters [{id=1, controller=book, action=show}]
+2017-03-26 12:59:52.018 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'mimeTypes'
+2017-03-26 12:59:52.133 DEBUG --- [qtp875487383-17] org.grails.datastore.gorm.GormEnhancer   : Returning default tenant id for non-multitenant class [class org.bookstore.Book]
+2017-03-26 12:59:52.161 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpChannel     : sendResponse info=null content=DirectByteBuffer@39e4f834[p=0,l=66,c=32768,r=66]={<<<{"id":1,"author":...itle":"Book 1"}>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00} complete=false committing=true callback=Blocker@10328550{null}
+2017-03-26 12:59:52.161 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpChannel     : COMMIT for /books/1 on HttpChannelOverHttp@5477b0fd{r=1,c=true,a=DISPATCHED,uri=//localhost:8080/books/1}
+200 null HTTP/1.1
+Date: Sun, 26 Mar 2017 10:59:51 GMT
+X-Application-Context: application:development
+Location: http://localhost:8080/books/1
+Content-Type: application/json;charset=utf-8
+
+
+2017-03-26 12:59:52.169 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpConnection  : org.eclipse.jetty.server.HttpConnection$SendCallback@66a10c62[PROCESSING][i=HTTP/1.1{s=200,h=4},cb=org.eclipse.jetty.server.HttpChannel$CommitCallback@24db161] generate: NEED_HEADER (null,[p=0,l=66,c=32768,r=66],false)@START
+2017-03-26 12:59:52.171 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpConnection  : org.eclipse.jetty.server.HttpConnection$SendCallback@66a10c62[PROCESSING][i=HTTP/1.1{s=200,h=4},cb=org.eclipse.jetty.server.HttpChannel$CommitCallback@24db161] generate: FLUSH ([p=0,l=223,c=8192,r=223],[p=0,l=66,c=32768,r=66],false)@COMMITTED
+2017-03-26 12:59:52.171 DEBUG --- [qtp875487383-17] org.eclipse.jetty.io.WriteFlusher        : write: WriteFlusher@6d071f48{IDLE} [HeapByteBuffer@152dd325[p=0,l=223,c=8192,r=223]={<<<HTTP/1.1 200 OK\r\n...chunked\r\n\r\n42\r\n>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00},DirectByteBuffer@39e4f834[p=0,l=66,c=32768,r=66]={<<<{"id":1,"author":...itle":"Book 1"}>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}]
+2017-03-26 12:59:52.171 DEBUG --- [qtp875487383-17] org.eclipse.jetty.io.WriteFlusher        : update WriteFlusher@6d071f48{WRITING}:IDLE-->WRITING
+2017-03-26 12:59:52.172 DEBUG --- [qtp875487383-17] org.eclipse.jetty.io.ChannelEndPoint     : flushed 289 SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,-,W,441/30000,HttpConnection@79b8499e}{io=0/0,kio=0,kro=1}
+2017-03-26 12:59:52.172 DEBUG --- [qtp875487383-17] org.eclipse.jetty.io.WriteFlusher        : Flushed=true 223/223+1 WriteFlusher@6d071f48{WRITING}
+2017-03-26 12:59:52.172 DEBUG --- [qtp875487383-17] org.eclipse.jetty.io.WriteFlusher        : update WriteFlusher@6d071f48{IDLE}:WRITING-->IDLE
+2017-03-26 12:59:52.172 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpConnection  : org.eclipse.jetty.server.HttpConnection$SendCallback@66a10c62[PROCESSING][i=HTTP/1.1{s=200,h=4},cb=org.eclipse.jetty.server.HttpChannel$CommitCallback@24db161] generate: DONE ([p=223,l=223,c=8192,r=0],[p=66,l=66,c=32768,r=0],false)@COMMITTED
+2017-03-26 12:59:52.173 DEBUG --- [qtp875487383-17] .g.o.h.GrailsHibernateTransactionManager : Initiating transaction commit
+2017-03-26 12:59:52.173 DEBUG --- [qtp875487383-17] .g.o.h.GrailsHibernateTransactionManager : Committing Hibernate transaction on Session [SessionImpl(PersistenceContext[entityKeys=[EntityKey[org.bookstore.Book#1]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+2017-03-26 12:59:52.173 DEBUG --- [qtp875487383-17] o.h.e.t.internal.TransactionImpl         : committing
+2017-03-26 12:59:52.173 DEBUG --- [qtp875487383-17] o.h.e.i.AbstractFlushingEventListener    : Processing flush-time cascades
+2017-03-26 12:59:52.173 DEBUG --- [qtp875487383-17] o.h.e.i.AbstractFlushingEventListener    : Dirty checking collections
+2017-03-26 12:59:52.174 DEBUG --- [qtp875487383-17] o.h.e.i.AbstractFlushingEventListener    : Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2017-03-26 12:59:52.174 DEBUG --- [qtp875487383-17] o.h.e.i.AbstractFlushingEventListener    : Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2017-03-26 12:59:52.174 DEBUG --- [qtp875487383-17] o.hibernate.internal.util.EntityPrinter  : Listing entities:
+2017-03-26 12:59:52.174 DEBUG --- [qtp875487383-17] o.hibernate.internal.util.EntityPrinter  : org.bookstore.Book{author=Author 1 - Changed 1490525991, id=1, title=Book 1, version=1}
+2017-03-26 12:59:52.174 DEBUG --- [qtp875487383-17] o.s.j.d.LazyConnectionDataSourceProxy    : Using existing database connection for operation 'commit'
+2017-03-26 12:59:52.174 DEBUG --- [qtp875487383-17] o.h.r.j.i.LogicalConnectionManagedImpl   : Initiating JDBC connection release from afterTransaction
+2017-03-26 12:59:52.175 DEBUG --- [qtp875487383-17] o.s.j.d.LazyConnectionDataSourceProxy    : Using existing database connection for operation 'getWarnings'
+2017-03-26 12:59:52.175 DEBUG --- [qtp875487383-17] o.s.j.d.LazyConnectionDataSourceProxy    : Using existing database connection for operation 'clearWarnings'
+2017-03-26 12:59:52.175 DEBUG --- [qtp875487383-17] o.s.j.d.LazyConnectionDataSourceProxy    : Using existing database connection for operation 'getTargetConnection'
+2017-03-26 12:59:52.175 DEBUG --- [qtp875487383-17] o.s.jdbc.datasource.DataSourceUtils      : Returning JDBC Connection to DataSource
+2017-03-26 12:59:52.175 DEBUG --- [qtp875487383-17] o.s.j.d.LazyConnectionDataSourceProxy    : Using existing database connection for operation 'close'
+2017-03-26 12:59:52.175 DEBUG --- [qtp875487383-17] o.s.j.d.LazyConnectionDataSourceProxy    : Using existing database connection for operation 'setAutoCommit'
+2017-03-26 12:59:52.175 DEBUG --- [qtp875487383-17] j.i.AbstractLogicalConnectionImplementor : Could not re-enable auto-commit on JDBC Connection after completion of JDBC-based transaction : java.sql.SQLException: PooledConnection has already been closed.
+2017-03-26 12:59:52.175 DEBUG --- [qtp875487383-17] o.h.r.j.i.LogicalConnectionManagedImpl   : Initiating JDBC connection release from afterTransaction
+2017-03-26 12:59:52.175 DEBUG --- [qtp875487383-17] o.s.j.d.LazyConnectionDataSourceProxy    : Using existing database connection for operation 'getWarnings'
+2017-03-26 12:59:52.178 DEBUG --- [qtp875487383-17] o.h.engine.jdbc.spi.SqlExceptionHelper   : could not log warnings
+
+java.sql.SQLException: PooledConnection has already been closed.
+        at org.apache.tomcat.jdbc.pool.DisposableConnectionFacade.invoke(DisposableConnectionFacade.java:87)
+        at com.sun.proxy.$Proxy82.getWarnings(Unknown Source)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1426)
+        at org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy$LazyConnectionInvocationHandler.invoke(LazyConnectionDataSourceProxy.java:376)
+        at com.sun.proxy.$Proxy84.getWarnings(Unknown Source)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1426)
+        at org.springframework.jdbc.datasource.TransactionAwareDataSourceProxy$TransactionAwareInvocationHandler.invoke(TransactionAwareDataSourceProxy.java:240)
+        at com.sun.proxy.$Proxy84.getWarnings(Unknown Source)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1426)
+        at org.springframework.jdbc.datasource.TransactionAwareDataSourceProxy$TransactionAwareInvocationHandler.invoke(TransactionAwareDataSourceProxy.java:240)
+        at com.sun.proxy.$Proxy84.getWarnings(Unknown Source)
+        at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.handleAndClearWarnings(SqlExceptionHelper.java:277)
+        at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logAndClearWarnings(SqlExceptionHelper.java:256)
+        at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.releaseConnection(LogicalConnectionManagedImpl.java:167)
+        at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.afterTransaction(LogicalConnectionManagedImpl.java:135)
+        at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.afterTransaction(JdbcCoordinatorImpl.java:296)
+        at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.afterTransactionCompletion(JdbcCoordinatorImpl.java:496)
+        at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.afterCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:167)
+        at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$200(JdbcResourceLocalTransactionCoordinatorImpl.java:38)
+        at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:233)
+        at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:65)
+        at org.springframework.orm.hibernate5.HibernateTransactionManager.doCommit(HibernateTransactionManager.java:582)
+        at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:761)
+        at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:730)
+        at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:150)
+        at grails.transaction.GrailsTransactionTemplate.execute(GrailsTransactionTemplate.groovy:93)
+        at grails.rest.RestfulController.update(RestfulController.groovy)
+        at org.bookstore.BookController.update(Book.groovy)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1426)
+        at org.grails.core.DefaultGrailsControllerClass$ReflectionInvoker.invoke(DefaultGrailsControllerClass.java:210)
+        at org.grails.core.DefaultGrailsControllerClass.invoke(DefaultGrailsControllerClass.java:187)
+        at org.grails.web.mapping.mvc.UrlMappingsInfoHandlerAdapter.handle(UrlMappingsInfoHandlerAdapter.groovy:90)
+        at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+        at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+        at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+        at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:883)
+        at javax.servlet.http.HttpServlet.service(HttpServlet.java:710)
+        at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+        at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+        at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848)
+        at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1772)
+        at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:205)
+        at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1759)
+        at org.springframework.boot.web.filter.ApplicationContextHeaderFilter.doFilterInternal(ApplicationContextHeaderFilter.java:55)
+        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+        at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1759)
+        at org.springframework.boot.actuate.trace.WebRequestTraceFilter.doFilterInternal(WebRequestTraceFilter.java:105)
+        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+        at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1759)
+        at org.grails.web.servlet.mvc.GrailsWebRequestFilter.doFilterInternal(GrailsWebRequestFilter.java:77)
+        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+        at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1759)
+        at org.grails.web.filters.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:67)
+        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+        at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1759)
+        at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+        at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1759)
+        at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+        at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1759)
+        at org.springframework.boot.actuate.autoconfigure.MetricsFilter.doFilterInternal(MetricsFilter.java:106)
+        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+        at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1759)
+        at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+        at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+        at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+        at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+        at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+        at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+        at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+        at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+        at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+        at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+        at org.eclipse.jetty.server.Server.handle(Server.java:534)
+        at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+        at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+        at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+        at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110)
+        at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+        at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+        at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+        at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+        at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+        at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+        at java.lang.Thread.run(Thread.java:745)
+
+2017-03-26 12:59:52.178 DEBUG --- [qtp875487383-17] o.s.j.d.LazyConnectionDataSourceProxy    : Using existing database connection for operation 'clearWarnings'
+2017-03-26 12:59:52.179 DEBUG --- [qtp875487383-17] o.h.engine.jdbc.spi.SqlExceptionHelper   : could not clear warnings
+
+java.sql.SQLException: PooledConnection has already been closed.
+        at org.apache.tomcat.jdbc.pool.DisposableConnectionFacade.invoke(DisposableConnectionFacade.java:87)
+        at com.sun.proxy.$Proxy82.clearWarnings(Unknown Source)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1426)
+        at org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy$LazyConnectionInvocationHandler.invoke(LazyConnectionDataSourceProxy.java:376)
+        at com.sun.proxy.$Proxy84.clearWarnings(Unknown Source)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1426)
+        at org.springframework.jdbc.datasource.TransactionAwareDataSourceProxy$TransactionAwareInvocationHandler.invoke(TransactionAwareDataSourceProxy.java:240)
+        at com.sun.proxy.$Proxy84.clearWarnings(Unknown Source)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1426)
+        at org.springframework.jdbc.datasource.TransactionAwareDataSourceProxy$TransactionAwareInvocationHandler.invoke(TransactionAwareDataSourceProxy.java:240)
+        at com.sun.proxy.$Proxy84.clearWarnings(Unknown Source)
+        at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.handleAndClearWarnings(SqlExceptionHelper.java:286)
+        at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logAndClearWarnings(SqlExceptionHelper.java:256)
+        at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.releaseConnection(LogicalConnectionManagedImpl.java:167)
+        at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.afterTransaction(LogicalConnectionManagedImpl.java:135)
+        at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.afterTransaction(JdbcCoordinatorImpl.java:296)
+        at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.afterTransactionCompletion(JdbcCoordinatorImpl.java:496)
+        at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.afterCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:167)
+        at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$200(JdbcResourceLocalTransactionCoordinatorImpl.java:38)
+        at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:233)
+        at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:65)
+        at org.springframework.orm.hibernate5.HibernateTransactionManager.doCommit(HibernateTransactionManager.java:582)
+        at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:761)
+        at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:730)
+        at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:150)
+        at grails.transaction.GrailsTransactionTemplate.execute(GrailsTransactionTemplate.groovy:93)
+        at grails.rest.RestfulController.update(RestfulController.groovy)
+        at org.bookstore.BookController.update(Book.groovy)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1426)
+        at org.grails.core.DefaultGrailsControllerClass$ReflectionInvoker.invoke(DefaultGrailsControllerClass.java:210)
+        at org.grails.core.DefaultGrailsControllerClass.invoke(DefaultGrailsControllerClass.java:187)
+        at org.grails.web.mapping.mvc.UrlMappingsInfoHandlerAdapter.handle(UrlMappingsInfoHandlerAdapter.groovy:90)
+        at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+        at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+        at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+        at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:883)
+        at javax.servlet.http.HttpServlet.service(HttpServlet.java:710)
+        at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+        at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+        at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848)
+        at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1772)
+        at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:205)
+        at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1759)
+        at org.springframework.boot.web.filter.ApplicationContextHeaderFilter.doFilterInternal(ApplicationContextHeaderFilter.java:55)
+        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+        at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1759)
+        at org.springframework.boot.actuate.trace.WebRequestTraceFilter.doFilterInternal(WebRequestTraceFilter.java:105)
+        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+        at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1759)
+        at org.grails.web.servlet.mvc.GrailsWebRequestFilter.doFilterInternal(GrailsWebRequestFilter.java:77)
+        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+        at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1759)
+        at org.grails.web.filters.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:67)
+        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+        at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1759)
+        at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+        at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1759)
+        at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+        at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1759)
+        at org.springframework.boot.actuate.autoconfigure.MetricsFilter.doFilterInternal(MetricsFilter.java:106)
+        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+        at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1759)
+        at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+        at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+        at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+        at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+        at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+        at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+        at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+        at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+        at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+        at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+        at org.eclipse.jetty.server.Server.handle(Server.java:534)
+        at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+        at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+        at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+        at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:110)
+        at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+        at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+        at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+        at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+        at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+        at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+        at java.lang.Thread.run(Thread.java:745)
+
+2017-03-26 12:59:52.179 DEBUG --- [qtp875487383-17] .g.o.h.GrailsHibernateTransactionManager : Not closing pre-bound Hibernate Session [SessionImpl(PersistenceContext[entityKeys=[EntityKey[org.bookstore.Book#1]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] after transaction
+2017-03-26 12:59:52.180 DEBUG --- [qtp875487383-17] org.hibernate.internal.SessionImpl       : Disconnecting session
+2017-03-26 12:59:52.181 DEBUG --- [qtp875487383-17] o.g.w.s.mvc.GrailsDispatcherServlet      : Null ModelAndView returned to DispatcherServlet with name 'grailsDispatcherServlet': assuming HandlerAdapter completed request handling
+2017-03-26 12:59:52.181 DEBUG --- [qtp875487383-17] o.h.s.GrailsOpenSessionInViewInterceptor : Closing Hibernate Session in OpenSessionInViewInterceptor
+2017-03-26 12:59:52.181 DEBUG --- [qtp875487383-17] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : HHH000420: Closing un-released batch
+2017-03-26 12:59:52.181 DEBUG --- [qtp875487383-17] o.g.w.s.mvc.GrailsDispatcherServlet      : Successfully completed request
+2017-03-26 12:59:52.183 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'springReactorEventTranslator'
+2017-03-26 12:59:52.183 DEBUG --- [qtp875487383-17] o.s.b.f.s.DefaultListableBeanFactory     : Returning cached instance of singleton bean 'grailsApplication'
+2017-03-26 12:59:52.184 DEBUG --- [qtp875487383-17] o.g.w.s.mvc.GrailsWebRequestFilter       : Cleared Grails thread-bound request context: Request(PUT //localhost:8080/books/1)@2bca175e
+2017-03-26 12:59:52.185 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.Server          : handled=true async=false committed=true on HttpChannelOverHttp@5477b0fd{r=1,c=true,a=DISPATCHED,uri=//localhost:8080/books/1}
+2017-03-26 12:59:52.185 DEBUG --- [qtp875487383-17] o.eclipse.jetty.server.HttpChannelState  : HttpChannelState@532b5fab{s=DISPATCHED a=NOT_ASYNC i=true r=!P!U w=false} unhandle DISPATCHED
+2017-03-26 12:59:52.185 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpChannel     : HttpChannelOverHttp@5477b0fd{r=1,c=true,a=COMPLETING,uri=//localhost:8080/books/1} action COMPLETE
+2017-03-26 12:59:52.185 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpChannel     : sendResponse info=null content=HeapByteBuffer@75ba7d57[p=0,l=0,c=0,r=0]={<<<>>>} complete=true committing=false callback=Blocker@10328550{null}
+2017-03-26 12:59:52.185 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpConnection  : org.eclipse.jetty.server.HttpConnection$SendCallback@66a10c62[PROCESSING][i=null,cb=Blocker@10328550{null}] generate: CONTINUE (null,[p=0,l=0,c=0,r=0],true)@COMPLETING
+2017-03-26 12:59:52.185 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpConnection  : org.eclipse.jetty.server.HttpConnection$SendCallback@66a10c62[PROCESSING][i=null,cb=Blocker@10328550{null}] generate: NEED_CHUNK (null,[p=0,l=0,c=0,r=0],true)@COMPLETING
+2017-03-26 12:59:52.185 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpConnection  : org.eclipse.jetty.server.HttpConnection$SendCallback@66a10c62[PROCESSING][i=null,cb=Blocker@10328550{null}] generate: FLUSH (null,[p=0,l=0,c=0,r=0],true)@COMPLETING
+2017-03-26 12:59:52.185 DEBUG --- [qtp875487383-17] org.eclipse.jetty.io.WriteFlusher        : write: WriteFlusher@6d071f48{IDLE} [HeapByteBuffer@373fcddd[p=0,l=7,c=1024,r=7]={<<<\r\n0\r\n\r\n>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}]
+2017-03-26 12:59:52.185 DEBUG --- [qtp875487383-17] org.eclipse.jetty.io.WriteFlusher        : update WriteFlusher@6d071f48{WRITING}:IDLE-->WRITING
+2017-03-26 12:59:52.186 DEBUG --- [qtp875487383-17] org.eclipse.jetty.io.ChannelEndPoint     : flushed 7 SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,-,W,14/30000,HttpConnection@79b8499e}{io=0/0,kio=0,kro=1}
+2017-03-26 12:59:52.186 DEBUG --- [qtp875487383-17] org.eclipse.jetty.io.WriteFlusher        : Flushed=true 7/7+0 WriteFlusher@6d071f48{WRITING}
+2017-03-26 12:59:52.186 DEBUG --- [qtp875487383-17] org.eclipse.jetty.io.WriteFlusher        : update WriteFlusher@6d071f48{IDLE}:WRITING-->IDLE
+2017-03-26 12:59:52.186 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpConnection  : org.eclipse.jetty.server.HttpConnection$SendCallback@66a10c62[PROCESSING][i=null,cb=Blocker@10328550{null}] generate: DONE (null,[p=0,l=0,c=0,r=0],true)@END
+2017-03-26 12:59:52.186 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpChannel     : COMPLETE for /books/1 written=66
+2017-03-26 12:59:52.186 DEBUG --- [qtp875487383-17] org.eclipse.jetty.http.HttpParser        : reset HttpParser{s=END,43 of 43}
+2017-03-26 12:59:52.186 DEBUG --- [qtp875487383-17] org.eclipse.jetty.http.HttpParser        : END --> START
+2017-03-26 12:59:52.187 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpChannel     : HttpChannelOverHttp@5477b0fd{r=1,c=false,a=IDLE,uri=null} handle exit, result COMPLETE
+2017-03-26 12:59:52.187 DEBUG --- [qtp875487383-17] org.eclipse.jetty.io.ChannelEndPoint     : filled -1 SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,-,-,1/30000,HttpConnection@79b8499e}{io=0/0,kio=0,kro=1}
+2017-03-26 12:59:52.187 DEBUG --- [qtp875487383-17] org.eclipse.jetty.io.ChannelEndPoint     : ishut SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,in,out,-,-,1/30000,HttpConnection@79b8499e}{io=0/0,kio=0,kro=1}
+2017-03-26 12:59:52.187 DEBUG --- [qtp875487383-17] org.eclipse.jetty.http.HttpParser        : atEOF HttpParser{s=START,0 of -1}
+2017-03-26 12:59:52.187 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpConnection  : HttpConnection@79b8499e[SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,ISHUT,out,-,-,1/30000,HttpConnection@79b8499e}{io=0/0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator@6f12545e{s=START},c=HttpChannelOverHttp@5477b0fd{r=1,c=false,a=IDLE,uri=null}] filled -1 HeapByteBuffer@152dd325[p=0,l=0,c=8192,r=0]={<<<>>>HTTP/1.1 200 OK\r\n...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+2017-03-26 12:59:52.187 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpConnection  : HttpConnection@79b8499e[SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,Open,ISHUT,out,-,-,1/30000,HttpConnection@79b8499e}{io=0/0,kio=0,kro=1}][p=HttpParser{s=START,0 of -1},g=HttpGenerator@6f12545e{s=START},c=HttpChannelOverHttp@5477b0fd{r=1,c=false,a=IDLE,uri=null}] parse HeapByteBuffer@152dd325[p=0,l=0,c=8192,r=0]={<<<>>>HTTP/1.1 200 OK\r\n...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00} {}
+2017-03-26 12:59:52.187 DEBUG --- [qtp875487383-17] org.eclipse.jetty.http.HttpParser        : parseNext s=START HeapByteBuffer@152dd325[p=0,l=0,c=8192,r=0]={<<<>>>HTTP/1.1 200 OK\r\n...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+2017-03-26 12:59:52.187 DEBUG --- [qtp875487383-17] org.eclipse.jetty.http.HttpParser        : START --> CLOSED
+2017-03-26 12:59:52.187 DEBUG --- [qtp875487383-17] org.eclipse.jetty.io.WriteFlusher        : ignored: WriteFlusher@6d071f48{IDLE} {}
+2017-03-26 12:59:52.188 DEBUG --- [qtp875487383-17] org.eclipse.jetty.io.ChannelEndPoint     : close SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,CLOSED,ISHUT,out,-,-,1/30000,HttpConnection@79b8499e}{io=0/0,kio=0,kro=1}
+2017-03-26 12:59:52.189 DEBUG --- [qtp875487383-17] org.eclipse.jetty.io.ManagedSelector     : Queued change org.eclipse.jetty.io.ManagedSelector$2@123e50d2 on org.eclipse.jetty.io.ManagedSelector@5543d800 id=0 keys=1 selected=0
+2017-03-26 12:59:52.190 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpConnection  : HttpConnection@79b8499e[SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,CLOSED,ISHUT,OSHUT,-,-,4/30000,HttpConnection@79b8499e}{io=0/0,kio=-1,kro=-1}][p=HttpParser{s=CLOSED,0 of -1},g=HttpGenerator@6f12545e{s=START},c=HttpChannelOverHttp@5477b0fd{r=1,c=false,a=IDLE,uri=null}] parsed false HttpParser{s=CLOSED,0 of -1}
+2017-03-26 12:59:52.190 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpConnection  : releaseRequestBuffer HttpConnection@79b8499e[SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,CLOSED,ISHUT,OSHUT,-,-,4/30000,HttpConnection@79b8499e}{io=0/0,kio=-1,kro=-1}][p=HttpParser{s=CLOSED,0 of -1},g=HttpGenerator@6f12545e{s=START},c=HttpChannelOverHttp@5477b0fd{r=1,c=false,a=IDLE,uri=null}]
+2017-03-26 12:59:52.190 DEBUG --- [qtp875487383-17] org.eclipse.jetty.server.HttpConnection  : HttpConnection@79b8499e[SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,CLOSED,ISHUT,OSHUT,-,-,4/30000,HttpConnection@79b8499e}{io=0/0,kio=-1,kro=-1}][p=HttpParser{s=CLOSED,0 of -1},g=HttpGenerator@6f12545e{s=START},c=HttpChannelOverHttp@5477b0fd{r=1,c=false,a=IDLE,uri=null}] onFillable exit HttpChannelState@532b5fab{s=IDLE a=NOT_ASYNC i=true r=!P!U w=false} null
+2017-03-26 12:59:52.190 DEBUG --- [qtp875487383-17] o.e.j.u.t.s.ExecuteProduceConsume        : EPC Prod/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff ran SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,CLOSED,ISHUT,OSHUT,-,-,4/30000,HttpConnection@79b8499e}{io=0/0,kio=-1,kro=-1}:runFillable
+2017-03-26 12:59:52.190 DEBUG --- [qtp875487383-17] o.e.j.u.t.s.ExecuteProduceConsume        : EPC Prod/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff produce exit
+2017-03-26 12:59:52.190 DEBUG --- [qtp875487383-17] o.e.jetty.util.thread.QueuedThreadPool   : ran EPC Prod/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff
+2017-03-26 12:59:52.190 DEBUG --- [qtp875487383-18] org.eclipse.jetty.io.ManagedSelector     : Selector loop woken up from select, 0/0 selected
+2017-03-26 12:59:52.190 DEBUG --- [qtp875487383-18] o.e.j.u.t.s.ExecuteProduceConsume        : EPC Prod/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff produced org.eclipse.jetty.io.ManagedSelector$2@123e50d2
+2017-03-26 12:59:52.191 DEBUG --- [qtp875487383-18] o.e.j.u.t.s.ExecuteProduceConsume        : EPC Pend/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff dispatch
+2017-03-26 12:59:52.191 DEBUG --- [qtp875487383-18] o.e.jetty.util.thread.QueuedThreadPool   : queue EPC Pend/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff
+2017-03-26 12:59:52.191 DEBUG --- [qtp875487383-18] o.e.j.u.t.s.ExecuteProduceConsume        : EPC Pend/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff run org.eclipse.jetty.io.ManagedSelector$2@123e50d2
+2017-03-26 12:59:52.191 DEBUG --- [qtp875487383-19] o.e.jetty.util.thread.QueuedThreadPool   : run EPC Pend/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff
+2017-03-26 12:59:52.191 DEBUG --- [qtp875487383-19] o.e.j.u.t.s.ExecuteProduceConsume        : EPC Pend/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff run
+2017-03-26 12:59:52.191 DEBUG --- [qtp875487383-18] org.eclipse.jetty.io.ManagedSelector     : Destroyed SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,CLOSED,ISHUT,OSHUT,-,-,5/30000,HttpConnection@79b8499e}{io=0/0,kio=-1,kro=-1}
+2017-03-26 12:59:52.191 DEBUG --- [qtp875487383-19] o.e.j.u.t.s.ExecuteProduceConsume        : EPC Prod/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff produce enter
+2017-03-26 12:59:52.191 DEBUG --- [qtp875487383-19] o.e.j.u.t.s.ExecuteProduceConsume        : EPC Prod/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff producing
+2017-03-26 12:59:52.191 DEBUG --- [qtp875487383-19] org.eclipse.jetty.io.ManagedSelector     : Selector loop waiting on select
+2017-03-26 12:59:52.191 DEBUG --- [qtp875487383-18] org.eclipse.jetty.io.AbstractConnection  : onClose HttpConnection@79b8499e[SelectChannelEndPoint@2020342f{/0:0:0:0:0:0:0:1:64576<->8080,CLOSED,ISHUT,OSHUT,-,-,5/30000,HttpConnection@79b8499e}{io=0/0,kio=-1,kro=-1}][p=HttpParser{s=CLOSED,0 of -1},g=HttpGenerator@6f12545e{s=START},c=HttpChannelOverHttp@5477b0fd{r=1,c=false,a=IDLE,uri=null}]
+2017-03-26 12:59:52.191 DEBUG --- [qtp875487383-18] o.e.j.u.t.s.ExecuteProduceConsume        : EPC Prod/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff ran org.eclipse.jetty.io.ManagedSelector$2@123e50d2
+2017-03-26 12:59:52.191 DEBUG --- [qtp875487383-18] o.e.j.u.t.s.ExecuteProduceConsume        : EPC Prod/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff produce exit
+2017-03-26 12:59:52.191 DEBUG --- [qtp875487383-18] o.e.jetty.util.thread.QueuedThreadPool   : ran EPC Prod/org.eclipse.jetty.io.ManagedSelector$SelectorProducer@2bc7f8ff
