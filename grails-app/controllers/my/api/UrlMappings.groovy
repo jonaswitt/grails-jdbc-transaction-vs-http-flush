@@ -3,6 +3,8 @@ package my.api
 class UrlMappings {
 
     static mappings = {
+        '/books'(resources: 'book')
+
         delete "/$controller/$id(.$format)?"(action:"delete")
         get "/$controller(.$format)?"(action:"index")
         get "/$controller/$id(.$format)?"(action:"show")
