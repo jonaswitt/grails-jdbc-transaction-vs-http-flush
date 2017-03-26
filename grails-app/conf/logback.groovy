@@ -21,3 +21,9 @@ if (Environment.isDevelopmentMode() && targetDir) {
     }
     logger("StackTrace", ERROR, ['FULL_STACKTRACE'], false)
 }
+
+logger 'org.hibernate.SQL', DEBUG
+logger 'org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction', DEBUG
+
+logger 'org.eclipse.jetty', DEBUG
+logger 'org.grails.web', DEBUG
