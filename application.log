@@ -1,0 +1,135 @@
+DEBUG org.eclipse.jetty.io.SelectorManager - Queued change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Accept@3a38234b
+DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop woken up from select, 0/0 selected
+DEBUG org.eclipse.jetty.io.SelectorManager - Running change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Accept@3a38234b
+DEBUG org.eclipse.jetty.io.AbstractEndPoint - onOpen SelectChannelEndPoint@2d36ec3c{/0:0:0:0:0:0:0:1:64557<->8080,Open,in,out,-,-,15/30000,null}{io=0,kio=0,kro=0}
+DEBUG org.eclipse.jetty.io.IdleTimeout - SelectChannelEndPoint@2d36ec3c{/0:0:0:0:0:0:0:1:64557<->8080,Open,in,out,-,-,15/30000,null}{io=0,kio=0,kro=0} idle timeout check, elapsed: 15 ms, remaining: 29985 ms
+DEBUG org.eclipse.jetty.server.HttpChannel - new HttpChannelOverHttp@2ade48e7{r=0,c=false,a=IDLE,uri=} -> SelectChannelEndPoint@2d36ec3c{/0:0:0:0:0:0:0:1:64557<->8080,Open,in,out,-,-,174/30000,null}{io=0,kio=0,kro=0},null,HttpChannelState@f3835ca{s=IDLE i=true a=null}
+DEBUG org.eclipse.jetty.server.HttpConnection - New HTTP Connection HttpConnection@6fd3cf70[IDLE,SelectChannelEndPoint@2d36ec3c{/0:0:0:0:0:0:0:1:64557<->8080,Open,in,out,-,-,208/30000,null}{io=0,kio=0,kro=0}][p=HttpParser{s=START,0 of 0},g=HttpGenerator{s=START},c=HttpChannelOverHttp@2ade48e7{r=0,c=false,a=IDLE,uri=}]
+DEBUG org.eclipse.jetty.io.AbstractConnection - onOpen HttpConnection@6fd3cf70[IDLE,SelectChannelEndPoint@2d36ec3c{/0:0:0:0:0:0:0:1:64557<->8080,Open,in,out,-,-,209/30000,HttpConnection}{io=0,kio=0,kro=0}][p=HttpParser{s=START,0 of 0},g=HttpGenerator{s=START},c=HttpChannelOverHttp@2ade48e7{r=0,c=false,a=IDLE,uri=}]
+DEBUG org.eclipse.jetty.io.AbstractConnection - fillInterested HttpConnection@6fd3cf70[IDLE,SelectChannelEndPoint@2d36ec3c{/0:0:0:0:0:0:0:1:64557<->8080,Open,in,out,-,-,209/30000,HttpConnection}{io=0,kio=0,kro=0}][p=HttpParser{s=START,0 of 0},g=HttpGenerator{s=START},c=HttpChannelOverHttp@2ade48e7{r=0,c=false,a=IDLE,uri=}]
+DEBUG org.eclipse.jetty.io.AbstractConnection - IDLE-->FILL_INTERESTED HttpConnection@6fd3cf70[FILL_INTERESTED,SelectChannelEndPoint@2d36ec3c{/0:0:0:0:0:0:0:1:64557<->8080,Open,in,out,-,-,209/30000,HttpConnection}{io=0,kio=0,kro=0}][p=HttpParser{s=START,0 of 0},g=HttpGenerator{s=START},c=HttpChannelOverHttp@2ade48e7{r=0,c=false,a=IDLE,uri=}]
+DEBUG org.eclipse.jetty.io.SelectChannelEndPoint - Local interests updating 0 -> 1 for SelectChannelEndPoint@2d36ec3c{/0:0:0:0:0:0:0:1:64557<->8080,Open,in,out,R,-,0/30000,HttpConnection}{io=1,kio=0,kro=0}
+DEBUG org.eclipse.jetty.io.SelectorManager - Queued change org.eclipse.jetty.io.SelectChannelEndPoint$1@4494d03c
+DEBUG org.eclipse.jetty.io.SelectorManager - Created SelectChannelEndPoint@2d36ec3c{/0:0:0:0:0:0:0:1:64557<->8080,Open,in,out,R,-,0/30000,HttpConnection}{io=1,kio=0,kro=0}
+DEBUG org.eclipse.jetty.io.SelectorManager - Running change org.eclipse.jetty.io.SelectChannelEndPoint$1@4494d03c
+DEBUG org.eclipse.jetty.io.SelectChannelEndPoint - Key interests updated 0 -> 1 on SelectChannelEndPoint@2d36ec3c{/0:0:0:0:0:0:0:1:64557<->8080,Open,in,out,R,-,0/30000,HttpConnection}{io=1,kio=1,kro=0}
+DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop waiting on select
+DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop woken up from select, 1/1 selected
+DEBUG org.eclipse.jetty.io.SelectChannelEndPoint - Key interests updated 1 -> 0 on SelectChannelEndPoint@2d36ec3c{/0:0:0:0:0:0:0:1:64557<->8080,Open,in,out,R,-,0/30000,HttpConnection}{io=1,kio=0,kro=1}
+DEBUG org.eclipse.jetty.io.SelectChannelEndPoint - Local interests updating 1 -> 0 for SelectChannelEndPoint@2d36ec3c{/0:0:0:0:0:0:0:1:64557<->8080,Open,in,out,R,-,0/30000,HttpConnection}{io=0,kio=0,kro=1}
+DEBUG org.eclipse.jetty.io.SelectorManager - Queued change org.eclipse.jetty.io.SelectChannelEndPoint$1@4494d03c
+DEBUG org.eclipse.jetty.io.AbstractConnection - FILL_INTERESTED-->FILLING HttpConnection@6fd3cf70[FILLING,SelectChannelEndPoint@2d36ec3c{/0:0:0:0:0:0:0:1:64557<->8080,Open,in,out,-,-,1/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of 0},g=HttpGenerator{s=START},c=HttpChannelOverHttp@2ade48e7{r=0,c=false,a=IDLE,uri=}]
+DEBUG org.eclipse.jetty.io.SelectorManager - Running change org.eclipse.jetty.io.SelectChannelEndPoint$1@4494d03c
+DEBUG org.eclipse.jetty.io.SelectorManager - Selector loop waiting on select
+DEBUG org.eclipse.jetty.server.HttpConnection - HttpConnection@6fd3cf70[FILLING,SelectChannelEndPoint@2d36ec3c{/0:0:0:0:0:0:0:1:64557<->8080,Open,in,out,-,-,1/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=START,0 of 0},g=HttpGenerator{s=START},c=HttpChannelOverHttp@2ade48e7{r=0,c=false,a=IDLE,uri=}] onFillable HttpChannelState@f3835ca{s=IDLE i=true a=null}
+DEBUG org.eclipse.jetty.io.ChannelEndPoint - filled 195 SelectChannelEndPoint@2d36ec3c{/0:0:0:0:0:0:0:1:64557<->8080,Open,in,out,-,-,391/30000,HttpConnection}{io=0,kio=0,kro=1}
+DEBUG org.eclipse.jetty.http.HttpParser - parseNext s=START HeapByteBuffer@7e0e431c[p=0,l=195,c=16384,r=195]={<<<PUT /books/1 HTTP...ed 1490525820"}>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+DEBUG org.eclipse.jetty.http.HttpParser - START --> SPACE1
+DEBUG org.eclipse.jetty.http.HttpParser - SPACE1 --> URI
+DEBUG org.eclipse.jetty.http.HttpParser - URI --> SPACE2
+DEBUG org.eclipse.jetty.http.HttpParser - SPACE2 --> REQUEST_VERSION
+DEBUG org.eclipse.jetty.http.HttpParser - REQUEST_VERSION --> HEADER
+DEBUG org.eclipse.jetty.http.HttpParser - HEADER --> HEADER_VALUE
+DEBUG org.eclipse.jetty.http.HttpParser - HEADER_VALUE --> HEADER_IN_VALUE
+DEBUG org.eclipse.jetty.http.HttpParser - HEADER_IN_VALUE --> HEADER
+DEBUG org.eclipse.jetty.http.HttpParser - HEADER --> HEADER_VALUE
+DEBUG org.eclipse.jetty.http.HttpParser - HEADER_VALUE --> HEADER_IN_VALUE
+DEBUG org.eclipse.jetty.http.HttpParser - HEADER_IN_VALUE --> HEADER
+DEBUG org.eclipse.jetty.http.HttpParser - HEADER --> HEADER_IN_VALUE
+DEBUG org.eclipse.jetty.http.HttpParser - HEADER_IN_VALUE --> HEADER
+DEBUG org.eclipse.jetty.http.HttpParser - HEADER --> HEADER_IN_VALUE
+DEBUG org.eclipse.jetty.http.HttpParser - HEADER_IN_VALUE --> HEADER
+DEBUG org.eclipse.jetty.http.HttpParser - HEADER --> HEADER_VALUE
+DEBUG org.eclipse.jetty.http.HttpParser - HEADER_VALUE --> HEADER_IN_VALUE
+DEBUG org.eclipse.jetty.http.HttpParser - HEADER_IN_VALUE --> HEADER
+DEBUG org.eclipse.jetty.http.HttpParser - HEADER --> CONTENT
+DEBUG org.eclipse.jetty.server.HttpChannel - HttpChannelOverHttp@2ade48e7{r=1,c=false,a=IDLE,uri=/books/1} handle enter
+DEBUG org.eclipse.jetty.server.HttpChannelState - HttpChannelState@f3835ca{s=IDLE i=true a=null} handling IDLE
+DEBUG org.eclipse.jetty.server.HttpChannel - HttpChannelOverHttp@2ade48e7{r=1,c=false,a=DISPATCHED,uri=/books/1} action REQUEST_DISPATCH
+DEBUG org.eclipse.jetty.server.Server - REQUEST PUT /books/1 on HttpChannelOverHttp@2ade48e7{r=1,c=false,a=DISPATCHED,uri=/books/1}
+DEBUG org.eclipse.jetty.server.handler.ContextHandler - scope null||/books/1 @ o.s.b.c.e.j.JettyEmbeddedWebAppContext@2d4f67e{/,file:/Users/jonaswitt/Desktop/my-api/src/main/webapp/,AVAILABLE}
+DEBUG org.eclipse.jetty.server.handler.ContextHandler - context=||/books/1 @ o.s.b.c.e.j.JettyEmbeddedWebAppContext@2d4f67e{/,file:/Users/jonaswitt/Desktop/my-api/src/main/webapp/,AVAILABLE}
+DEBUG org.eclipse.jetty.server.session - sessionManager=org.eclipse.jetty.server.session.HashSessionManager@63262071
+DEBUG org.eclipse.jetty.server.session - session=null
+DEBUG org.eclipse.jetty.servlet.ServletHandler - servlet ||/books/1 -> grailsDispatcherServlet@3fb1da4==org.grails.web.servlet.mvc.GrailsDispatcherServlet,2,true
+DEBUG org.eclipse.jetty.servlet.ServletHandler - chain=metricsFilter->characterEncodingFilter->hiddenHttpMethodFilter->grailsWebRequestFilter->webRequestLoggingFilter->applicationContextIdFilter->Jetty_WebSocketUpgradeFilter->grailsDispatcherServlet@3fb1da4==org.grails.web.servlet.mvc.GrailsDispatcherServlet,2,true
+DEBUG org.eclipse.jetty.servlet.ServletHandler - call filter metricsFilter
+DEBUG org.eclipse.jetty.servlet.ServletHandler - call filter characterEncodingFilter
+DEBUG org.eclipse.jetty.servlet.ServletHandler - call filter hiddenHttpMethodFilter
+DEBUG org.eclipse.jetty.servlet.ServletHandler - call filter grailsWebRequestFilter
+DEBUG org.grails.web.servlet.mvc.GrailsWebRequestFilter - Bound Grails request context to thread: Request(PUT /books/1)@72b0bacb
+DEBUG org.eclipse.jetty.servlet.ServletHandler - call filter webRequestLoggingFilter
+DEBUG org.eclipse.jetty.servlet.ServletHandler - call filter applicationContextIdFilter
+DEBUG org.eclipse.jetty.servlet.ServletHandler - call filter Jetty_WebSocketUpgradeFilter
+DEBUG org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter - .doFilter(Jetty_WebSocketUpgradeFilter) - grailsDispatcherServlet@3fb1da4==org.grails.web.servlet.mvc.GrailsDispatcherServlet,2,true
+DEBUG org.eclipse.jetty.servlet.ServletHandler - call servlet grailsDispatcherServlet@3fb1da4==org.grails.web.servlet.mvc.GrailsDispatcherServlet,2,true
+DEBUG org.grails.web.servlet.mvc.GrailsDispatcherServlet - DispatcherServlet with name 'grailsDispatcherServlet' processing PUT request for [/books/1]
+DEBUG org.grails.web.mapping.DefaultUrlMappingsHolder - Attempting to match URI [/books/1] with pattern [404]
+DEBUG org.grails.web.mapping.DefaultUrlMappingsHolder - Attempting to match URI [/books/1] with pattern [500]
+DEBUG org.grails.web.mapping.DefaultUrlMappingsHolder - Attempting to match URI [/books/1] with pattern [/]
+DEBUG org.grails.web.mapping.DefaultUrlMappingsHolder - Attempting to match URI [/books/1] with pattern [/books/create]
+DEBUG org.grails.web.mapping.DefaultUrlMappingsHolder - Attempting to match URI [/books/1] with pattern [/books/(*)/edit]
+DEBUG org.grails.web.mapping.DefaultUrlMappingsHolder - Attempting to match URI [/books/1] with pattern [/books(.(*))?]
+DEBUG org.grails.web.mapping.DefaultUrlMappingsHolder - Attempting to match URI [/books/1] with pattern [/books(.(*))?]
+DEBUG org.grails.web.mapping.DefaultUrlMappingsHolder - Attempting to match URI [/books/1] with pattern [/books/(*)(.(*))?]
+DEBUG org.grails.web.mapping.DefaultUrlMappingsHolder - Matched URI [/books/1] with pattern [/books/(*)(.(*))?], adding to posibilities
+DEBUG org.grails.web.mapping.DefaultUrlMappingsHolder - Attempting to match URI [/books/1] with pattern [/books/(*)(.(*))?]
+DEBUG org.grails.web.mapping.DefaultUrlMappingsHolder - Matched URI [/books/1] with pattern [/books/(*)(.(*))?], adding to posibilities
+DEBUG org.grails.web.mapping.DefaultUrlMappingsHolder - Attempting to match URI [/books/1] with pattern [/books/(*)(.(*))?]
+DEBUG org.grails.web.mapping.DefaultUrlMappingsHolder - Matched URI [/books/1] with pattern [/books/(*)(.(*))?], adding to posibilities
+DEBUG org.grails.web.mapping.DefaultUrlMappingsHolder - Attempting to match URI [/books/1] with pattern [/books/(*)(.(*))?]
+DEBUG org.grails.web.mapping.DefaultUrlMappingsHolder - Matched URI [/books/1] with pattern [/books/(*)(.(*))?], adding to posibilities
+DEBUG org.grails.web.mapping.DefaultUrlMappingsHolder - Attempting to match URI [/books/1] with pattern [/(*)/(*)?/(*)?(.(*))?]
+DEBUG org.grails.web.mapping.DefaultUrlMappingsHolder - Matched URI [/books/1] with pattern [/(*)/(*)?/(*)?(.(*))?], adding to posibilities
+DEBUG org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction - initial autocommit status: true
+DEBUG org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction - disabling autocommit
+DEBUG org.hibernate.SQL - select book0_.id as id1_0_0_, book0_.version as version2_0_0_, book0_.author as author3_0_0_, book0_.title as title4_0_0_ from book book0_ where book0_.id=?
+DEBUG org.eclipse.jetty.http.HttpParser - parseNext s=CONTENT HeapByteBuffer@7e0e431c[p=152,l=195,c=16384,r=43]={PUT /books/1 HTTP...-Length: 43\r\n\r\n<<<{"author": "Autho...ed 1490525820"}>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+DEBUG org.eclipse.jetty.server.HttpChannel - HttpChannelOverHttp@2ade48e7{r=1,c=false,a=DISPATCHED,uri=/books/1} content java.nio.HeapByteBufferR[pos=152 lim=195 cap=16384]
+DEBUG org.eclipse.jetty.http.HttpParser - parseNext s=CONTENT HeapByteBuffer@7e0e431c[p=195,l=195,c=16384,r=0]={PUT /books/1 HTTP...ed 1490525820"}<<<>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+DEBUG org.eclipse.jetty.http.HttpParser - CONTENT --> END
+DEBUG org.eclipse.jetty.server.HttpChannel - HttpChannelOverHttp@2ade48e7{r=1,c=false,a=DISPATCHED,uri=/books/1} messageComplete
+DEBUG org.eclipse.jetty.server.HttpInput - HttpInputOverHTTP@7f14a41d EOF
+DEBUG org.eclipse.jetty.io.ChannelEndPoint - filled 0 SelectChannelEndPoint@2d36ec3c{/0:0:0:0:0:0:0:1:64557<->8080,Open,in,out,-,-,221/30000,HttpConnection}{io=0,kio=0,kro=1}
+DEBUG org.eclipse.jetty.server.HttpConnection - HttpConnection@6fd3cf70[FILLING,SelectChannelEndPoint@2d36ec3c{/0:0:0:0:0:0:0:1:64557<->8080,Open,in,out,-,-,221/30000,HttpConnection}{io=0,kio=0,kro=1}][p=HttpParser{s=END,43 of 43},g=HttpGenerator{s=START},c=HttpChannelOverHttp@2ade48e7{r=1,c=false,a=DISPATCHED,uri=/books/1}] filled 0
+DEBUG org.eclipse.jetty.server.HttpInput - HttpInputOverHTTP@7f14a41d eof EOF
+DEBUG org.eclipse.jetty.server.HttpInput - HttpInputOverHTTP@7f14a41d eof EOF
+DEBUG org.eclipse.jetty.server.HttpInput - HttpInputOverHTTP@7f14a41d eof EOF
+DEBUG org.hibernate.SQL - update book set version=?, author=?, title=? where id=? and version=?
+DEBUG org.grails.web.mapping.RegexUrlMapping - Created reverse URL mapping [/books/1] for parameters [{id=1, controller=book, action=show}]
+DEBUG org.eclipse.jetty.server.HttpConnection - org.eclipse.jetty.server.HttpConnection$SendCallback@b873668[PROCESSING][i=ResponseInfo{HTTP/1.1 200 null,-1,false},cb=org.eclipse.jetty.server.HttpChannel$CommitCallback@3f8fb27d] generate: NEED_HEADER (null,[p=0,l=66,c=32768,r=66],false)@START
+DEBUG org.eclipse.jetty.server.HttpConnection - org.eclipse.jetty.server.HttpConnection$SendCallback@b873668[PROCESSING][i=ResponseInfo{HTTP/1.1 200 null,-1,false},cb=org.eclipse.jetty.server.HttpChannel$CommitCallback@3f8fb27d] generate: FLUSH ([p=0,l=256,c=8192,r=256],[p=0,l=66,c=32768,r=66],false)@COMMITTED
+DEBUG org.eclipse.jetty.io.WriteFlusher - write: WriteFlusher@21bc4c4b{IDLE} [HeapByteBuffer@2144664e[p=0,l=256,c=8192,r=256]={<<<HTTP/1.1 200 OK\r\n...160908)\r\n\r\n42\r\n>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00},HeapByteBuffer@dd8c36e[p=0,l=66,c=32768,r=66]={<<<{"id":1,"author":...itle":"Book 1"}>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}]
+DEBUG org.eclipse.jetty.io.WriteFlusher - update WriteFlusher@21bc4c4b{WRITING}:IDLE-->WRITING
+DEBUG org.eclipse.jetty.io.ChannelEndPoint - flushed 322 SelectChannelEndPoint@2d36ec3c{/0:0:0:0:0:0:0:1:64557<->8080,Open,in,out,-,W,336/30000,HttpConnection}{io=0,kio=0,kro=1}
+DEBUG org.eclipse.jetty.io.WriteFlusher - update WriteFlusher@21bc4c4b{IDLE}:WRITING-->IDLE
+DEBUG org.eclipse.jetty.server.HttpConnection - org.eclipse.jetty.server.HttpConnection$SendCallback@b873668[PROCESSING][i=ResponseInfo{HTTP/1.1 200 null,-1,false},cb=org.eclipse.jetty.server.HttpChannel$CommitCallback@3f8fb27d] generate: DONE ([p=256,l=256,c=8192,r=0],[p=66,l=66,c=32768,r=0],false)@COMMITTED
+DEBUG org.eclipse.jetty.server.HttpConnection - org.eclipse.jetty.server.HttpConnection$SendCallback@b873668[PROCESSING][i=null,cb=Blocker@55c1f337{null}] generate: CONTINUE (null,[p=0,l=0,c=0,r=0],true)@COMPLETING
+DEBUG org.eclipse.jetty.server.HttpConnection - org.eclipse.jetty.server.HttpConnection$SendCallback@b873668[PROCESSING][i=null,cb=Blocker@55c1f337{null}] generate: NEED_CHUNK (null,[p=0,l=0,c=0,r=0],true)@COMPLETING
+DEBUG org.eclipse.jetty.server.HttpConnection - org.eclipse.jetty.server.HttpConnection$SendCallback@b873668[PROCESSING][i=null,cb=Blocker@55c1f337{null}] generate: FLUSH (null,[p=0,l=0,c=0,r=0],true)@COMPLETING
+DEBUG org.eclipse.jetty.io.WriteFlusher - write: WriteFlusher@21bc4c4b{IDLE} [HeapByteBuffer@16d01414[p=0,l=7,c=1024,r=7]={<<<\r\n0\r\n\r\n>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}]
+DEBUG org.eclipse.jetty.io.WriteFlusher - update WriteFlusher@21bc4c4b{WRITING}:IDLE-->WRITING
+DEBUG org.eclipse.jetty.io.ChannelEndPoint - flushed 7 SelectChannelEndPoint@2d36ec3c{/0:0:0:0:0:0:0:1:64557<->8080,Open,in,out,-,W,2/30000,HttpConnection}{io=0,kio=0,kro=1}
+DEBUG org.eclipse.jetty.io.WriteFlusher - update WriteFlusher@21bc4c4b{IDLE}:WRITING-->IDLE
+DEBUG org.eclipse.jetty.server.HttpConnection - org.eclipse.jetty.server.HttpConnection$SendCallback@b873668[PROCESSING][i=null,cb=Blocker@55c1f337{null}] generate: DONE (null,[p=0,l=0,c=0,r=0],true)@END
+DEBUG org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction - committed JDBC Connection
+DEBUG org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction - re-enabling autocommit
+DEBUG org.grails.web.servlet.mvc.GrailsDispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'grailsDispatcherServlet': assuming HandlerAdapter completed request handling
+DEBUG org.grails.web.servlet.mvc.GrailsDispatcherServlet - Successfully completed request
+DEBUG org.grails.web.servlet.mvc.GrailsWebRequestFilter - Cleared Grails thread-bound request context: Request(PUT /books/1)@72b0bacb
+DEBUG org.eclipse.jetty.server.Server - RESPONSE /books/1  200 handled=true
+DEBUG org.eclipse.jetty.server.HttpChannelState - HttpChannelState@f3835ca{s=DISPATCHED i=true a=null} unhandle DISPATCHED
+DEBUG org.eclipse.jetty.http.HttpParser - reset HttpParser{s=END,43 of 43}
+DEBUG org.eclipse.jetty.http.HttpParser - END --> START
+DEBUG org.eclipse.jetty.server.HttpChannel - HttpChannelOverHttp@2ade48e7{r=1,c=false,a=IDLE,uri=} handle exit, result COMPLETE
+DEBUG org.eclipse.jetty.io.ChannelEndPoint - filled -1 SelectChannelEndPoint@2d36ec3c{/0:0:0:0:0:0:0:1:64557<->8080,Open,in,out,-,-,8/30000,HttpConnection}{io=0,kio=0,kro=1}
+DEBUG org.eclipse.jetty.io.ChannelEndPoint - ishut SelectChannelEndPoint@2d36ec3c{/0:0:0:0:0:0:0:1:64557<->8080,Open,in,out,-,-,8/30000,HttpConnection}{io=0,kio=0,kro=1}
+DEBUG org.eclipse.jetty.http.HttpParser - atEOF HttpParser{s=START,0 of -1}
+DEBUG org.eclipse.jetty.http.HttpParser - parseNext s=START HeapByteBuffer@7e0e431c[p=0,l=0,c=16384,r=0]={<<<>>>PUT /books/1 HTTP...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+DEBUG org.eclipse.jetty.http.HttpParser - START --> CLOSED
+DEBUG org.eclipse.jetty.io.AbstractEndPoint - onClose SelectChannelEndPoint@2d36ec3c{/0:0:0:0:0:0:0:1:64557<->8080,CLOSED,ISHUT,out,-,-,9/30000,HttpConnection}{io=0,kio=0,kro=1}
+DEBUG org.eclipse.jetty.io.ChannelEndPoint - close SelectChannelEndPoint@2d36ec3c{/0:0:0:0:0:0:0:1:64557<->8080,CLOSED,ISHUT,out,-,-,9/30000,HttpConnection}{io=0,kio=0,kro=1}
+DEBUG org.eclipse.jetty.io.SelectorManager - Destroyed SelectChannelEndPoint@2d36ec3c{/0:0:0:0:0:0:0:1:64557<->8080,CLOSED,ISHUT,OSHUT,-,-,10/30000,HttpConnection}{io=0,kio=-1,kro=-1}
+DEBUG org.eclipse.jetty.io.AbstractConnection - onClose HttpConnection@6fd3cf70[FILLING,SelectChannelEndPoint@2d36ec3c{/0:0:0:0:0:0:0:1:64557<->8080,CLOSED,ISHUT,OSHUT,-,-,10/30000,HttpConnection}{io=0,kio=-1,kro=-1}][p=HttpParser{s=CLOSED,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@2ade48e7{r=1,c=false,a=IDLE,uri=}]
+DEBUG org.eclipse.jetty.io.AbstractEndPoint - onClose SelectChannelEndPoint@2d36ec3c{/0:0:0:0:0:0:0:1:64557<->8080,CLOSED,ISHUT,OSHUT,-,-,10/30000,HttpConnection}{io=0,kio=-1,kro=-1}
+DEBUG org.eclipse.jetty.io.AbstractConnection - FILLING-->IDLE HttpConnection@6fd3cf70[IDLE,SelectChannelEndPoint@2d36ec3c{/0:0:0:0:0:0:0:1:64557<->8080,CLOSED,ISHUT,OSHUT,-,-,10/30000,HttpConnection}{io=0,kio=-1,kro=-1}][p=HttpParser{s=CLOSED,0 of -1},g=HttpGenerator{s=START},c=HttpChannelOverHttp@2ade48e7{r=1,c=false,a=IDLE,uri=}]
