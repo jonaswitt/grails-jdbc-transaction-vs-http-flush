@@ -32,8 +32,17 @@ if (Environment.isDevelopmentMode() && targetDir != null) {
         }
     }
     logger("StackTrace", ERROR, ['FULL_STACKTRACE'], false)
-    root(ERROR, ['STDOUT', 'FULL_STACKTRACE'])
+    root(DEBUG, ['STDOUT', 'FULL_STACKTRACE'])
 }
 else {
-    root(ERROR, ['STDOUT'])
+    root(DEBUG, ['STDOUT'])
 }
+
+logger 'org.hibernate.SQL', DEBUG
+
+logger 'org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction', DEBUG
+logger 'org.hibernate.transaction', DEBUG
+
+logger 'org.eclipse.jetty', DEBUG
+logger 'org.grails.web', DEBUG
+
