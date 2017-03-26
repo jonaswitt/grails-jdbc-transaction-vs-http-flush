@@ -3,6 +3,8 @@ package my.api
 class UrlMappings {
 
     static mappings = {
+        '/books'(resources: 'book')
+
         "/$controller/$action?/$id?(.$format)?"{
             constraints {
                 // apply constraints here
